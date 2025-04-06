@@ -1,0 +1,146 @@
+.contact-us-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.contact-us-container-inner h1{
+    font-size: 3.5rem;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.contact-us-container-inner p{
+    font-size: 1.2rem;
+}
+
+.contact-us-container-inner button{
+    color: #fff;
+    background: red;
+    padding: 1.2rem 2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.contact-us-container-inner button:hover{
+    background: hsl(0, 79%, 67%);
+}
+
+
+.contact-burner-inner h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 10rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-burner {
+    background: red;
+    height: 25rem;
+}
+
+.contact-burner-container{
+    background: hsl(0, 6%, 90%) !important;
+    height: 75rem;
+    padding: 4rem 0rem;
+    margin-top: 2rem;
+}
+
+.contact-burner-inners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-burner-inners h1{
+    font-size: 2.8rem;
+    font-weight: 300;
+    color: hsl(0, 0%, 49%);
+}
+
+.contact-burner-inners p{
+    text-align: center;
+    color: hsl(0, 0%, 46%);
+    font-size: 1.2rem;
+    max-width: 35rem;
+    line-height: 1.5;
+}
+
+.contact-burner-inners h2{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.left-form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 48rem;
+    flex: 1 1 25rem;
+}
+
+.left-form input{
+    margin: 1rem 0rem;
+    border: .1rem solid hsl(0, 3%, 80%);
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.left-form textarea{
+    margin: 1rem 0rem;
+    border: .1rem solid hsl(0, 3%, 80%);
+    width: 100%;
+    padding: .7rem;
+    height: 10rem;
+    border-radius: .5rem;
+}
+
+.right-form{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 25rem;
+}
+
+.right-form p{
+    display: flex;
+    align-items: center;
+}
+
+.right-form input{
+    margin: 1rem 0rem;
+}
+
+.contact-burner-inners form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    background: #fff;
+    box-shadow: 0rem .5rem 1rem rgba(0, 0, 0, .3);
+    padding: 2rem 2%;
+    width: 90%;
+
+}
+
+.left-form button{
+    color: #fff;
+    background: red;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: 1.1rem;
+}

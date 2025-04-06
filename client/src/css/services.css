@@ -1,0 +1,27 @@
+.services-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 5%;
+}
+
+.services-container h1{
+    font-weight: 300;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.8rem;
+}
+
+.services-container p{
+    max-width: 45rem;
+    font-size: 1.3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.services-container ul li{
+    line-height: 1.6;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}

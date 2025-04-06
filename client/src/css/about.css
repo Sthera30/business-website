@@ -1,0 +1,83 @@
+.about-us-burner {
+    background: red;
+    height: 25rem;
+}
+
+body{
+    background: hsl(0, 0%, 99%);
+}
+
+.about-us-burner-inner h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 10rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-us-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem 3%;
+}
+
+.about-us-container .our-mission-container{
+    flex: 1 1 30rem;
+    cursor: pointer;
+    padding: 2rem;
+    border: .3rem solid red;
+    border-radius: .5rem;
+    height: 23rem;
+}
+
+
+.about-us-container .our-mission-container p{
+    line-height: 1.5;
+    max-width: 40rem;
+    font-size: 1.2rem;
+}
+
+.about-us-container .our-mission-container h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.about-us-box-container{
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem 3%;
+}
+
+.about-us-left{
+    flex: 1 1 30rem;
+}
+
+.about-us-right{
+    flex: 1 1 30rem;
+}
+
+.about-us-left h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.about-us-left p{
+    max-width: 40rem;
+    line-height: 1.5;
+}
+
+.about-us-box-container p{
+    line-height: 1.5;
+    font-size: 1.1rem;
+}

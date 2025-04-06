@@ -1,0 +1,40 @@
+.logo-design img {
+    width: 9rem;
+    height: 7rem;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.logo-design {
+    display: flex;
+    align-items: center !important;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 1.2rem 5%;
+    border-bottom: .2rem solid hsl(0, 8%, 93%);
+    z-index: 1000;
+}
+
+.header .right-design a {
+    margin-left: 1.5rem;
+    color: #333;
+    font-size: 1.3rem;
+}
+
+.header .right-design a:hover {
+    color: red;
+}
+
+.right-design {
+    display: flex;
+    align-items: center;
+}
