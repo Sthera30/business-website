@@ -16,13 +16,13 @@ function Footer() {
 
                 <div className='footer-container'>
 
-                    <motion.div initial={{ opacity: 0, x: -80 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: .8, delay: .8 }} className='footer-box'>
+                    <div className='footer-box'>
 
                         <img src={img1} alt="Sthe digital agency logo" />
 
-                    </motion.div>
+                    </div>
 
-                    <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: .8, delay: .8 }} className='footer-box'>
+                    <div className='footer-box'>
 
                         <h1>LINKS</h1>
                         <NavLink to={"/"}>Home</NavLink>
@@ -31,9 +31,9 @@ function Footer() {
                         <NavLink to={"/blog"}>Blog</NavLink>
                         <NavLink to={"/contact-sthe-digital-agency"}>Contact Us</NavLink>
 
-                    </motion.div>
+                    </div>
 
-                    <motion.div initial={{ opacity: 0, x: 80 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: .8, delay: .8 }} className='footer-box'>
+                    <div className='footer-box'>
 
                         <h1>CONTACT INFO</h1>
 
@@ -43,7 +43,7 @@ function Footer() {
                         <a href="https://www.instagram.com/trap_pkq?igsh=b3hoZml2NzJnczF0"><FaInstagram style={{ color: '#fff', fontSize: '.4rem', width: '3rem', background: 'purple', height: '2rem', lineHeight: '1.8', padding: '.2rem 1rem', borderRadius: '.5rem' }} />&nbsp;@sirtembekile.dev</a>
                         <a href="https://www.tiktok.com/@sirtembekile.dev?_t=ZM-8ueFPftdKzO&_r=1"><FaTiktok style={{ color: '#fff', fontSize: '.4rem', width: '3rem', background: 'black', height: '2rem', lineHeight: '1.8', padding: '.2rem 1rem', borderRadius: '.5rem' }} />&nbsp;@sirtembekile.dev</a>
 
-                    </motion.div>
+                    </div>
 
                 </div>
 

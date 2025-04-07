@@ -39,7 +39,7 @@
     color: #fff;
     font-size: 5rem;
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 6rem;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 300;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -48,10 +48,13 @@
 .contact-burner {
     background: red;
     height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-burner-container{
-    background: hsl(0, 6%, 90%) !important;
+    background: hsl(0, 6%, 94%) !important;
     height: 75rem;
     padding: 4rem 0rem;
     margin-top: 2rem;
@@ -62,6 +65,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2rem 3%;
 }
 
 .contact-burner-inners h1{

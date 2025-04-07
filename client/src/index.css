@@ -20,37 +20,45 @@ html {
 /*==================== media queries =================*/
 
 @media (max-width: 1149px) {
-  
-  .project-box img{
+
+  .project-box img {
     width: 60% !important;
   }
 
-  .project-box .content{
+  .project-box .content {
     width: 60%;
   }
 
-  .burder-content{
-      gap: 10rem;
+  .burder-content {
+    gap: 10rem;
   }
 
 
-.about-us-box-container{
-  gap: 4rem;}
+  .about-us-box-container {
+    gap: 4rem;
+  }
 
-  .blog-container .blog-box .content h1{
+  .blog-container .blog-box .content h1 {
     color: red !important;
     font-size: 1.8rem;
   }
 
 
-.service-box {
-  height: 35rem;
+  .service-box {
+    height: 35rem;
+
+  }
+
+  .article-content-desc h1 {
+    font-size: 2rem !important;
+  }
+
+
+.contact-burner-inners form{
+  width: 100%;
 
 }
 
-.article-content-desc h1{
-  font-size: 2rem !important;
-}
 
 }
 
@@ -64,62 +72,73 @@ html {
 
 @media (max-width: 986px) {
 
-.contact-burner-container{
-  height: 90rem;
-}
+  .contact-burner-container {
+    height: 90rem;
+  }
 
 
 }
 
 @media (max-width: 935px) {
+
+
+  .burder-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center !important;
+    margin: 0 auto !important;
+  }
+
+
+  .burder-content {
+    gap: 2rem;
+  }
+
+  html {
+    font-size: 75%;
+  }
+
+  .burner-content-container {
+    height: 40rem;
+  }
+
+  .left-content h1 {
+    max-width: 30rem;
+    line-height: 1.5;
+  }
+
+  .left-content {
+    margin-top: 5rem;
+
+  }
+}
+
+@media (max-width: 890px) {
+
+  .burner-questions-container{
+    height: 60rem;
+  }
   
 
-.burder-content{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center !important;
-  margin: 0 auto !important;
 }
 
-
-.burder-content{
-  gap: 2rem;
-}
-
-html{
-  font-size: 75%;
-}
-.burner-content-container{
-  height: 40rem;
-}
-
-.left-content h1{
-  max-width: 30rem;
-  line-height: 1.5;
-}
-
-.left-content{
-  margin-top: 5rem;
-  
-}
-}
 @media (max-width: 889px) {
-  
-  .about-us-container .our-mission-container{
+
+  .about-us-container .our-mission-container {
     height: 25rem;
-}
+  }
 
 
 
-.right-content{
-  margin-top: -5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+  .right-content {
+    margin-top: -5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
 }
 
@@ -164,12 +183,12 @@ html{
 }
 
 @media (max-width: 771px) {
-  
-  .article-burner-inner h1{
+
+  .article-burner-inner h1 {
     font-size: 2rem !important;
   }
 
-  .article-burner{
+  .article-burner {
     padding: 2rem 2%;
   }
 
@@ -183,37 +202,83 @@ html{
   }
 
 
-.project-box-container .project-box img{
-  width: 100% !important;
-}
-
-
-.project-box .content{
-  width: 100%;
-}
-
-
-}
-
-@media (max-width: 739px) {
-  
-  
-@media (max-width: 739px) {
-
-  .contact-burner-container{
-    height: 98rem;
+  .project-box-container .project-box img {
+    width: 100% !important;
   }
-  
+
+
+  .project-box .content {
+    width: 100%;
+  }
+
+
+}
+
+@media (max-width: 739px) {
+
+
+  @media (max-width: 739px) {
+
+    .contact-burner-container {
+      height: 98rem;
+    }
+
+  }
+
+}
+
+
+@media (max-width: 665px) {
+
+  .service-burner {
+    height: 28rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service-burner-inner h1 {
+    font-size: 4rem;
+  }
+
+  .service-burner-inner h1 {
+    padding-top: 6rem;
+  }
+
+
+}
+
+@media (max-width: 661px) {
+
+  .contact-burner-inner h1 {
+    font-size: 4rem;
+  }
+
+  .contact-burner {
+    background: red;
+    height: 28rem;
+  }
+
+}
+
+@media (max-width: 598px) {
+
+  .about-us-burner {
+    height: 26rem;
+  }
+
+  .about-us-burner h1 {
+    font-size: 3.8rem;
   }
 
 }
 
 @media (max-width: 582px) {
-  
 
-.player-box{
-  height: 32rem;
-}
+
+  .player-box {
+    height: 32rem;
+  }
 
 
 }
@@ -228,41 +293,70 @@ html{
 
 @media (max-width:540px) {
 
-  .serive-heading h1{
+  .serive-heading h1 {
     font-size: 2.4rem;
   }
-  
+
 }
 
+
+@media (max-width: 532px) {
+
+  .service-burner-inner h1 {
+    font-size: 3.5rem;
+  }
+
+}
 
 @media (max-width:496px) {
-  
-.icons-left{
-  margin-bottom: -2.5rem;
-}  
+
+  .icons-left {
+    margin-bottom: -2.5rem;
+  }
 
 }
 
+@media (max-width: 490px) {
 
+.contact-burner-inners h3{
+  font-size: 2.5rem !important;
+}
+
+}
 
 @media (max-width: 487px) {
-  
 
-  .player-box{
+
+  .player-box {
     height: 35rem;
   }
 }
-  
+
 
 @media (max-width: 460px) {
+
+
+  .contact-burner-inners h2 {
+    font-size: 2rem;
+  }
+
+}
+
+@media (max-width: 449px) {
   
+  .service-box:nth-child(3){
+    height: 45rem !important;
+  }
 
-.contact-burner-inners h2{
-  font-size: 2rem;
 }
 
-}
+@media (max-width: 454px) {
 
+  .about-us-burner h1 {
+    font-size: 3.2rem;
+  }
+
+}
 
 @media (max-width: 450px) {
 
@@ -272,34 +366,53 @@ html{
 
 }
 
+@media (max-width: 449px) {
+
+  .service-burner-inner h1 {
+    font-size: 3rem;
+  }
+
+  .contact-burner-inner h1 {
+    font-size: 3rem;
+  }
+
+}
+
 @media (max-width:439px) {
-  
-  .burner-questions-inner h1{
+
+  .burner-questions-inner h1 {
     font-size: 2.2rem;
   }
 
 }
 
 @media (max-width: 421px) {
-  
-    
-  .about-us-container .our-mission-container{
-    height: 27rem;
-}
+
+  .about-us-container .our-mission-container {
+    height: 30rem;
+  }
 
 }
 
 @media (max-width: 400px) {
-  
-.article-content-desc h1{
-  font-size: 1.6rem !important;
+
+  .article-content-desc h1 {
+    font-size: 1.6rem !important;
+  }
+
 }
+
+@media (max-width: 411px) {
+  
+ .contact-burner-inners h3{
+    font-size: 2rem !important;
+  }
 
 }
 
 @media (max-width: 390px) {
-  
-  .left-content h1{
+
+  .left-content h1 {
     font-size: 2rem;
   }
 
@@ -307,7 +420,7 @@ html{
 
 @media (max-width: 374px) {
 
-  .serive-heading h1{
+  .serive-heading h1 {
     font-size: 2rem;
   }
 
@@ -317,28 +430,36 @@ html{
 
 @media (max-width: 370px) {
 
-  .serive-heading h1{
+  .serive-heading h1 {
     font-size: 1.8rem;
   }
 
 }
-  
-  
+
+
 @media (max-width: 350px) {
 
   html {
     font-size: 70%;
   }
 
-  .service-container .service-box{
+  .service-container .service-box {
     height: 38rem;
   }
 
 }
 
-@media (max-width: 330px) {
+@media (max-width: 349px) {
   
-  .serive-heading h1{
+  .burner-questions-container{
+    height: 70rem;
+  }
+
+}
+
+@media (max-width: 330px) {
+
+  .serive-heading h1 {
     font-size: 2rem;
   }
 

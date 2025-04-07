@@ -43,9 +43,9 @@ function About() {
 
                 </motion.div>
 
-                <motion.div initial={{ opacity: 0, x: 100 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: '.8', delay: '.7' }} className='about-us-right'>
+                <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: '.8', delay: '.7' }} className='about-us-right'>
 
-                    <img src={img1} alt="Quantum code logo services" />
+                    <img src={img1} alt="Sthe digital agency logo services" />
 
                 </motion.div>
 
@@ -53,21 +53,21 @@ function About() {
 
             <div className='about-us-container'>
 
-                <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: '.8', delay: '.7' }} className='our-mission-container'>
+                <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: '.8', delay: '.7' }} className='our-mission-container'>
 
                     <h1>Our Mission</h1>
                     <p>At Sthe Digital Agency, our mission is to transform businesses through innovative web solutions that drive real results. We combine cutting-edge technology with creative design to build websites that not only look stunning but also perform flawlessly. Our commitment is to deliver custom web experiences that help our clients stand out in the digital landscape and achieve their business goals.</p>
 
                 </motion.div>
 
-                <motion.div initial={{ opacity: 0, x: 100 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: '.8', delay: '.7' }} className='our-mission-container'>
+                <motion.div initial={{ opacity: 0, y: -100 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: '.8', delay: '.7' }} className='our-mission-container'>
 
                     <h1>Our Vision</h1>
                     <p>At Sthe Digital Agency, our vision is to become the leading web developer, recognized for delivering exceptional, innovative, and high-performance website solutions.</p>
 
                 </motion.div>
 
-            </div>
+            </div> 
 
             <Burner />
 

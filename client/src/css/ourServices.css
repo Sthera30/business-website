@@ -3,24 +3,24 @@
   height: 25rem;
 }
 
-.service-burner-inner h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 5rem;
-  text-align: center;
-  padding-top: 10rem;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: 300;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+  .service-burner-inner h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 12rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
 
 
 .friquently-container-burner {
   background: hsl(0, 4%, 86%);
   width: 100%;
-  height: 35rem;
+  height: 50rem;
   margin-top: 5rem;
 }
 
