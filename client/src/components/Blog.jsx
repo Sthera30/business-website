@@ -3,51 +3,18 @@ import '../css/blog.css'
 import { motion } from 'framer-motion'
 import { FaUser, FaArrowDown } from 'react-icons/fa'
 import { Calendar } from 'lucide-react'
-import axios from 'axios'
 import { NavLink } from 'react-router-dom'
+import img1 from '../../public/webway-south-africa-hosting-client-portal.jpg'
+import img2 from '../../public/small-business-website-importance-2025.jpg'
 
 function Blog() {
 
 
-    const [article, setArticle] = useState([])
-
-
-
-
-    async function handle_fetch_article() {
-
-        try {
-
-            const res = await axios.get(`http://localhost:1337/api/articles?populate[0]=cover&populate[1]=blocks&populate[2]=author`)
-
-            if (res.data.data.length > 0) {
-                setArticle(res.data.data);
-            }
-
-            else {
-                console.log("Tshayiwe?");
-
-            }
-
-        } catch (error) {
-            console.log(error);
-
-        }
-
-    }
-
-
     useEffect(() => {
 
-        handle_fetch_article()
         window.scrollTo(0, 0)
 
     }, [])
-
-
-    const truncateDescription = (text, length = 300) => {
-        return text.length > length ? text.substring(0, length) + '...' : text;
-    };
 
 
     return (
@@ -57,44 +24,68 @@ function Blog() {
 
             <div className='blog-heading'>
 
-                <motion.h1 initial={{opacity: 0, y: -50}} whileInView={{opacity: 1, y: 0}} viewport={{once: true}} transition={{duration: .8, delay: .8}}>Blogs</motion.h1>
+                <motion.h2 initial={{ opacity: 0, y: -50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: .8, delay: .8 }}>Blogs</motion.h2>
                 <FaArrowDown style={{ color: 'red', fontSize: '2rem' }} />
-                <motion.h2 initial={{opacity: 0, y: 50}} whileInView={{opacity: 1, y: 0}} viewport={{once: true}} transition={{duration: .8, delay: .8}}>Latest Articles</motion.h2>
+                <motion.h3 initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: .8, delay: .8 }}>Latest Articles</motion.h3>
 
             </div>
 
             <div className='blog-container'>
 
-                {article.map((articles, index) => (
 
-                    <div className='blog-box' key={index}>
+                <div className='blog-box'>
 
-                        <img src={`http://localhost:1337${articles?.cover?.url}`} alt={articles?.cover?.alternativeText} title={articles?.cover?.caption} loading='lazy' />
+                    <img src={img1} alt="WebWay hosting client portal interface showing domain search functionality and service options on a laptop screen with New Client Portal notification" title=" WebWay's redesigned client portal provides an intuitive interface for managing domains, hosting, and support services for South African websites." loading='lazy' width={702} height={498} />
 
-                        <div className='content'>
+                    <div className='content'>
 
-                            <NavLink to={`/article/${articles.slug}`}><h1 style={{ color: '#333' }}>{articles.title}</h1></NavLink>
-                            <div className='blog-content-info'>
-                                <p><FaUser />&nbsp;{articles?.author?.name}</p>
-                                <p><Calendar />
+                        <NavLink to={`/why-i-trust-web-way-for-all-my-website-hosting-needs-in-south-africa`}><h2 style={{ color: '#333' }}>Why I Trust WebWay for All My Website Hosting Needs in South Africa</h2></NavLink>
+                        <div className='blog-content-info'>
+                            <p><FaUser />&nbsp;Sthe Digital Agency</p>
+                            <p><Calendar />
 
-                                    {new Date(articles?.createdAt).toLocaleDateString("en-GB", {
-                                        day: "2-digit",
-                                        month: "long",
-                                        year: "numeric",
-                                    })}
-                                </p>
+                                Tue 08 April, 2025
 
-                            </div>
-                            <p className='desc' style={{ marginBottom: '2rem' }}>                {truncateDescription(articles.description)}
                             </p>
-                            <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/article/${articles.slug}`}>Read more</NavLink>
 
                         </div>
+                        <p className='desc' style={{ marginBottom: '2rem' }}>
+                            Looking for a trustworthy and reliable hosting provider in South Africa? In this post, I dive into why WebWay has been my go-to choice for website hosting. With its outstanding uptime, exceptional customer service, and locally optimized solutions, WebWay offers everything a business or developer cou...
+                        </p>
+                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/why-i-trust-web-way-for-all-my-website-hosting-needs-in-south-africa`}>Read more</NavLink>
 
                     </div>
 
-                ))}
+                </div>
+
+
+                <div className='blog-box'>
+
+                    <img src={img2} alt="Small business owner accessing their professional website on a laptop, demonstrating the importance of web presence in 2025" title="Digital presence has become essential for small businesses looking to thrive in today's market." loading='lazy' width={6144} height={3456} />
+
+                    <div className='content'>
+
+                        <NavLink to={`/the-importance-of-having-a-website-for-your-small-business-in-2025`}><h2 style={{ color: '#333' }}>The Importance of Having a Website for Your Small Business in 2025</h2></NavLink>
+                        <div className='blog-content-info'>
+                            <p><FaUser />&nbsp;Sthe Digital Agency</p>
+                            <p><Calendar />
+
+                                Tue 08 April, 2025
+
+                            </p>
+
+                        </div>
+                        <p className='desc' style={{ marginBottom: '2rem' }}>
+
+                            In 2025, having a website is no longer optional for small businesses—it's essential for success. With more consumers turning to the internet for their buying decisions, a well-designed website boosts your online visibility, ensuring potential customers can find you easily. A website also builds cred...
+
+                        </p>
+                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/the-importance-of-having-a-website-for-your-small-business-in-2025`}>Read more</NavLink>
+
+                    </div>
+
+                </div>
+
 
             </div>
 
@@ -106,3 +97,6 @@ function Blog() {
 }
 
 export default Blog
+
+
+

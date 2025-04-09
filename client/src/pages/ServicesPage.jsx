@@ -15,7 +15,7 @@ function ServicesPage() {
                 <title>Web Development Services | Sthe Digital Agency</title>
                 <meta
                     name="description"
-                    content="Professional web development services including custom website design, e-commerce solutions, and SEO optimization. Transform your online presence with Sthe Digital Agency."
+                    content="Stand out online with expert web design, e-commerce, and SEO from Sthe Digital Agency. Let's grow your digital footprint."
                 />
                 <meta
                     name="keywords"

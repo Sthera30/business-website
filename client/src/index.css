@@ -59,6 +59,15 @@ html {
 
 }
 
+.blog-burner-inner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-burner-inner h1{
+  font-size: 3rem;
+}
 
 }
 
@@ -348,6 +357,10 @@ html {
     height: 45rem !important;
   }
 
+  .article-content h1{
+    font-size: 1.5rem;
+  }
+
 }
 
 @media (max-width: 454px) {
@@ -375,6 +388,10 @@ html {
   .contact-burner-inner h1 {
     font-size: 3rem;
   }
+  
+.blog-burner-inner h1{
+  font-size: 2.5rem;
+}
 
 }
 

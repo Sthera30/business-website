@@ -19,7 +19,7 @@ function Navbar() {
 
             <div className='logo-design'>
 
-                <NavLink to={"/"}><img src={Img1} alt='Sthe digital agency services logo' /></NavLink>
+                <NavLink to={"/"}><img src={Img1} alt='Sthe digital agency services logo' width={640} height={317} /></NavLink>
        
             </div>
 

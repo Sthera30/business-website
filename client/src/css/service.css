@@ -6,12 +6,12 @@
     padding: 2rem 2%;
 }
 
-.serive-heading h1 {
+.serive-heading h2 {
     font-size: 3.5rem;
     font-weight: 300;
 }
 
-.serive-heading h1 span {
+.serive-heading h2 span {
     color: red;
 }
 
@@ -31,7 +31,10 @@
     height: 30rem;
     text-align: center;
     box-shadow: 0rem .5rem 1rem rgba(0, 0, 0, .2);
+}
 
+.service-box h2{
+    font-size: 1.8rem;
 }
 
 .service-box:hover {

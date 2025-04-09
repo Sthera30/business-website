@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 .article-burner {
     background: red;
     height: 25rem;
@@ -71,6 +75,7 @@
 }
 
 .table-contents{
+    margin-bottom: 4rem;
 }
 
 .info-table-contents a{
@@ -83,7 +88,7 @@
     margin: 2rem auto !important;
 }
 
-.article-content-desc h1{
+.article-content-desc h2{
     font-size: 3rem;
     max-width: 65rem;
     font-weight: 300;

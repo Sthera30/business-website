@@ -18,13 +18,13 @@ function Footer() {
 
                     <div className='footer-box'>
 
-                        <img src={img1} alt="Sthe digital agency logo" />
+                        <img src={img1} alt="Sthe digital agency logo" loading='lazy' width={642} height={310} />
 
                     </div>
 
                     <div className='footer-box'>
 
-                        <h1>LINKS</h1>
+                        <h2>LINKS</h2>
                         <NavLink to={"/"}>Home</NavLink>
                         <NavLink to={"/about-sthe-digital-agency"}>About Us</NavLink>
                         <NavLink to={"/sthe-digital-agency-services"}>Services</NavLink>
@@ -35,7 +35,7 @@ function Footer() {
 
                     <div className='footer-box'>
 
-                        <h1>CONTACT INFO</h1>
+                        <h2>CONTACT INFO</h2>
 
                         <a href=""><FaPhone style={{ color: '#fff', fontSize: '.4rem', width: '3rem', background: 'blue', height: '2rem', lineHeight: '1.8', padding: '.2rem 1rem', borderRadius: '.5rem' }} />&nbsp;Phone: (+27) 62 419 2299</a>
                         <a href=""><SiGmail style={{ color: '#fff', fontSize: '.4rem', width: '3rem', background: 'orange', height: '2rem', lineHeight: '1.8', padding: '.2rem 1rem', borderRadius: '.5rem' }} />&nbsp;Email: info@sthedigitalagency.co.za</a>

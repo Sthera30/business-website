@@ -85,7 +85,7 @@ function OurServices() {
 
         <div className='burner-questions-inner'>
 
-          <h1>Frequently Asked Questions</h1>
+          <h2>Frequently Asked Questions</h2>
 
         </div>
 

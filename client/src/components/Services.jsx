@@ -10,7 +10,7 @@ function Services() {
 
             <div className='services-container'>
 
-                <motion.h1 initial={{opacity:0, y: -80}} whileInView={{opacity: 1, y:0}} viewport={{once:true}} transition={{duration: .8, delay: .8}}>WHO IS THIS FOR</motion.h1>
+                <motion.h2 initial={{opacity:0, y: -80}} whileInView={{opacity: 1, y:0}} viewport={{once:true}} transition={{duration: .8, delay: .8}}>WHO IS THIS FOR</motion.h2>
                 <FiArrowDown style={{ fontSize: '2rem', color: 'red', fontWeight: 300 }} />
                 <motion.p initial={{opacity:0, y: -80}} whileInView={{opacity: 1, y:0}} viewport={{once:true}} transition={{duration: .8, delay: .8}} >Web development services at Sthe Digital Agency are designed for <span style={{color: 'red', fontWeight: '700'}}>businesses</span>  and  <span style={{color: 'red', fontWeight: '700'}}>individuals</span> who understand the importance of a strong online presence. This inlcudes:</motion.p>
                 <motion.ul initial={{opacity:0, y: 80}} whileInView={{opacity: 1, y:0}} viewport={{once:true}} transition={{duration: .8, delay: .8}}>

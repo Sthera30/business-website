@@ -7,6 +7,7 @@ import ServicesPage from './pages/ServicesPage.jsx'
 import BlogPage from './pages/BlogPage.jsx'
 import ArticlePage from './pages/ArticlePage.jsx'
 import ContactUsPage from './pages/ContactUsPage.jsx'
+import ArticlesPage from './pages/ArticlesPage.jsx'
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
             <Route path={"/about-sthe-digital-agency"} element={<AboutUsPage />} />
             <Route path={"/sthe-digital-agency-services"} element={<ServicesPage />} />
             <Route path={"/blog"} element={<BlogPage />} />
-            <Route path={"/article/:slug"} element={<ArticlePage />} />
+            <Route path={"/the-importance-of-having-a-website-for-your-small-business-in-2025"} element={<ArticlePage />} />
+            <Route path={"/why-i-trust-web-way-for-all-my-website-hosting-needs-in-south-africa"} element={<ArticlesPage />} />
             <Route path={"/contact-sthe-digital-agency"} element={<ContactUsPage />} />
 
             </Route>

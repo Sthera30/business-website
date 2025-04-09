@@ -7,8 +7,8 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
 import {FaStar, FaStarHalf} from 'react-icons/fa'
-import Img1 from '../../public/simamkele-ngcingolo-quantum-code-testimonial.jpg'
-import Img2 from '../../public/vuyolwethu-mkwakwi-quantum-code-testimonial.jpg'
+import Img1 from '../../public/simamkele-ngcingolo-sthe-digital-agency-testimonial.jpg'
+import Img2 from '../../public/vuyolwethu-mkwakwi-sthe-digital-agency-testimonial.jpg'
 import {motion} from 'framer-motion'
 
 function Testimonials() {
@@ -17,9 +17,9 @@ function Testimonials() {
 
             <div className='testimonials-content'>
 
-                <motion.h1 initial={{opacity: 0, y: -80}} whileInView={{opacity: 1, y:0}} viewport={{once: true}} transition={{duration: .8, delay: .8}}>TESTIMONIALS</motion.h1>
+                <motion.h2 style={{color: '#fff', fontSize: '2.2rem', marginTop: '4rem'}} initial={{opacity: 0, y: -80}} whileInView={{opacity: 1, y:0}} viewport={{once: true}} transition={{duration: .8, delay: .8}}>TESTIMONIALS</motion.h2>
                 <FiArrowDown style={{ color: '#fff', fontSize: '2.8rem' }} />
-                <motion.p initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y:0}} viewport={{once: true}} transition={{duration: .4, delay: .4}}>What Our Clients Say</motion.p>
+                <motion.h3 style={{color: '#fff'}} initial={{opacity: 0, y: 80}} whileInView={{opacity: 1, y:0}} viewport={{once: true}} transition={{duration: .4, delay: .4}}>What Our Clients Say</motion.h3>
 
             </div>
 
@@ -49,7 +49,7 @@ function Testimonials() {
 
                             </p>
                             <div className="info-container">
-                                <img src={Img1} alt="Simamkele Ngcingolo sharing his experience with Quantum Code's services" />
+                                <img src={Img1} alt="Simamkele Ngcingolo sharing his experience with Sthe Digital Agency's services" loading='lazy' width={1080} height={1350} />
                                 <div className="user-info">
                                     <p>Simamkele Ngcingolo</p>
                                     <p>Founder at kwanosportsclub</p>
@@ -73,7 +73,7 @@ function Testimonials() {
 
                             </p>
                             <div className="info-container">
-                                <img src={Img2} alt="Vuyolwethu mkwakwi sharing his experience with Quantum Code's services" />
+                                <img src={Img2} alt="Vuyolwethu mkwakwi sharing his experience with Sthe Digital Agency's services" loading='lazy' width={720} height={719} />
                                 <div className="user-info">
                                     <p>Vuyolwethu Mkwakwi</p>
                                     <p>Tennis Player</p>
