@@ -2,4 +2,4 @@ User-agent: *
 Disallow:
 
 # Point to your sitemap
-Sitemap: https://www.sthedigitalagency.co.za/sitemap.txt
+Sitemap: https://www.sthedigitalagency.co.za/sitemap.xml
