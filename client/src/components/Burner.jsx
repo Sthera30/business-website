@@ -13,7 +13,7 @@ function Burner() {
                 <div className='left-content'>
 
                     <motion.h2 initial={{opacity: 0, y:-50}} whileInView={{opacity: 1, y:0}} viewport={{once: true}} transition={{duration: .8, delay: .8}}>LETS GET STARTED ON YOUR PROJECT</motion.h2>
-                    <NavLink to={"/contact-us"} className="btnGetStarted" initial={{opacity: 0, y:50}} whileInView={{opacity: 1, y:0}} viewport={{once: true}} transition={{duration: .8, delay: .8}}>Get Started</NavLink>
+                    <NavLink to={"/contact-sthe-digital-agency"} className="btnGetStarted" initial={{opacity: 0, y:50}} whileInView={{opacity: 1, y:0}} viewport={{once: true}} transition={{duration: .8, delay: .8}}>Get Started</NavLink>
 
                 </div>
 

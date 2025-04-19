@@ -8,6 +8,10 @@ import BlogPage from './pages/BlogPage.jsx'
 import ArticlePage from './pages/ArticlePage.jsx'
 import ContactUsPage from './pages/ContactUsPage.jsx'
 import ArticlesPage from './pages/ArticlesPage.jsx'
+import BlogerPage from './pages/BlogerPage.jsx'
+import Article4Page from './pages/Article4Page.jsx'
+import Article5Page from './pages/Article5Page.jsx'
+import Article6Page from './pages/Article6Page.jsx'
 
 function App() {
 
@@ -24,6 +28,10 @@ function App() {
             <Route path={"/blog"} element={<BlogPage />} />
             <Route path={"/the-importance-of-having-a-website-for-your-small-business-in-2025"} element={<ArticlePage />} />
             <Route path={"/why-i-trust-web-way-for-all-my-website-hosting-needs-in-south-africa"} element={<ArticlesPage />} />
+            <Route path={"/why-seo-is-essential-for-every-business-in-2025"} element={<BlogerPage />} />
+            <Route path={"/your-website-is-your-first-impression"} element={<Article4Page />} />
+            <Route path={"/what-is-mobile-first-web-design"} element={<Article5Page />} />
+            <Route path={"/what-to-expect-when-working-with-a-web-developer"} element={<Article6Page />} />
             <Route path={"/contact-sthe-digital-agency"} element={<ContactUsPage />} />
 
             </Route>

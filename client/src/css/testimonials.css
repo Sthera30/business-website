@@ -21,6 +21,10 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.testimonials-content h3{
+    margin-bottom: 2rem !important;
+}
+
 .testimonials-content p{
     color: #fff;
     font-size: 1.3rem;

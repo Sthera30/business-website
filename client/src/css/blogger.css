@@ -1,0 +1,14 @@
+.un li{
+    color: hsl(0, 0%, 45%);
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.un li p{
+    max-width: 48rem;
+}
+
+.foo p a{
+    display: flex !important;
+    align-items: center !important;
+}

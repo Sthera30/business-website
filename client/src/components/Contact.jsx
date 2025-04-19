@@ -17,7 +17,7 @@ function Contact() {
 
         const formData = new FormData(event.target);
 
-        formData.append("access_key", "b864ad24-f1e9-4470-9ac5-068b25b9749f");
+        formData.append("access_key", "7cfea49b-b086-436a-b979-a48f3a374827");
 
         const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
@@ -89,8 +89,8 @@ function Contact() {
 
                             <h2>Contact Information</h2>
                             <p><MdLocationCity style={{color:'orange'}} />&nbsp;South Africa, Eastern Cape, Uitenhage</p>
-                            <p><FiPhone style={{color:'hsl(120, 93%, 17%)'}} />&nbsp;0624192299</p>
-                            <p><SiGmail style={{color: 'orange'}} />&nbsp;tinisthera@gmail.com</p>
+                            <p><FiPhone style={{color:'hsl(120, 93%, 17%)'}} />&nbsp;(+27) 624192299</p>
+                            <p><SiGmail style={{color: 'orange'}} />&nbsp;support@sthedigitalagency.co.za</p>
 
                         </motion.div>
 

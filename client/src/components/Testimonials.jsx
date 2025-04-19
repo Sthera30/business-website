@@ -52,7 +52,7 @@ function Testimonials() {
                                 <img src={Img1} alt="Simamkele Ngcingolo sharing his experience with Sthe Digital Agency's services" loading='lazy' width={1080} height={1350} />
                                 <div className="user-info">
                                     <p>Simamkele Ngcingolo</p>
-                                    <p>Founder at kwanosportsclub</p>
+                                    <p>Founder of kwanosportsclub</p>
                                 </div>
                             </div>
                         </div>

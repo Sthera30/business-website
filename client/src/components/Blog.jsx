@@ -4,8 +4,8 @@ import { motion } from 'framer-motion'
 import { FaUser, FaArrowDown } from 'react-icons/fa'
 import { Calendar } from 'lucide-react'
 import { NavLink } from 'react-router-dom'
-import img1 from '../../public/webway-south-africa-hosting-client-portal.jpg'
-import img2 from '../../public/small-business-website-importance-2025.jpg'
+import img1 from '../../public/importance-of-seo-for-your-business.jpeg'
+import img2 from '../../public/modern-website-landing-page-design-reviews-optimization.jpg'
 
 function Blog() {
 
@@ -32,27 +32,28 @@ function Blog() {
 
             <div className='blog-container'>
 
-
                 <div className='blog-box'>
 
-                    <img src={img1} alt="WebWay hosting client portal interface showing domain search functionality and service options on a laptop screen with New Client Portal notification" title=" WebWay's redesigned client portal provides an intuitive interface for managing domains, hosting, and support services for South African websites." loading='lazy' width={702} height={498} />
+                    <img src={img1} alt="Computer mouse connecting to the letter O in SEO, illustrating the interactive nature of search engine optimization for online businesses" title="SEO-Digital-Marketing-Online-Connection-Concept" loading='lazy' />
 
                     <div className='content'>
 
-                        <NavLink to={`/why-i-trust-web-way-for-all-my-website-hosting-needs-in-south-africa`}><h2 style={{ color: '#333' }}>Why I Trust WebWay for All My Website Hosting Needs in South Africa</h2></NavLink>
+                        <NavLink to={`/why-seo-is-essential-for-every-business-in-2025`}><h2 style={{ color: '#333' }}>Why SEO is Essential for Every Business in 2025: How Showing Up on Google Can Transform Your Brand</h2></NavLink>
                         <div className='blog-content-info'>
                             <p><FaUser />&nbsp;Sthe Digital Agency</p>
-                            <p><Calendar />
+                            <p><Calendar />&nbsp;
 
-                                Tue 08 April, 2025
+                                Thur 17 April, 2025
 
                             </p>
 
                         </div>
                         <p className='desc' style={{ marginBottom: '2rem' }}>
-                            Looking for a trustworthy and reliable hosting provider in South Africa? In this post, I dive into why WebWay has been my go-to choice for website hosting. With its outstanding uptime, exceptional customer service, and locally optimized solutions, WebWay offers everything a business or developer cou...
+
+                            In today’s digital world, having a website isn’t enough. If your business doesn’t show up on Google, you’re basically invisible to your customers. That’s where SEO comes in — the secret weapon that helps your website get found, builds trust with potenti...
+
                         </p>
-                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/why-i-trust-web-way-for-all-my-website-hosting-needs-in-south-africa`}>Read more</NavLink>
+                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/why-seo-is-essential-for-every-business-in-2025`}>Read more</NavLink>
 
                     </div>
 
@@ -61,26 +62,27 @@ function Blog() {
 
                 <div className='blog-box'>
 
-                    <img src={img2} alt="Small business owner accessing their professional website on a laptop, demonstrating the importance of web presence in 2025" title="Digital presence has become essential for small businesses looking to thrive in today's market." loading='lazy' width={6144} height={3456} />
+                    <img src={img2} alt="Modern website landing page design with vibrant purple branding, showing people working on laptops with review cards and interactive elements, demonstrating effective user experience design" title="Modern-Landing-Page-Design-User-Reviews-Web-Experience" loading='lazy' />
 
                     <div className='content'>
 
-                        <NavLink to={`/the-importance-of-having-a-website-for-your-small-business-in-2025`}><h2 style={{ color: '#333' }}>The Importance of Having a Website for Your Small Business in 2025</h2></NavLink>
+                        <NavLink to={`/your-website-is-your-first-impression`}><h2 style={{ color: '#333' }}>Your Website is Your First Impression — Here’s How to Make It Count</h2></NavLink>
                         <div className='blog-content-info'>
-                            <p><FaUser />&nbsp;Sthe Digital Agency</p>
-                            <p><Calendar />
+                            <p><FaUser style={{ width: '1.5rem', height: '1.5rem' }} />&nbsp;Sthe Digital Agency</p>
+                            <p><Calendar style={{ width: '1.5rem', height: '1.5rem' }} />&nbsp;
 
-                                Tue 08 April, 2025
+                                Thur 17 April, 2025
 
                             </p>
 
                         </div>
                         <p className='desc' style={{ marginBottom: '2rem' }}>
 
-                            In 2025, having a website is no longer optional for small businesses—it's essential for success. With more consumers turning to the internet for their buying decisions, a well-designed website boosts your online visibility, ensuring potential customers can find you easily. A website also builds cred...
+                        Imagine meeting a potential customer for the first time. You’d want to look sharp, speak clearly, and make a strong impression, right?
+                        Well — your website does that for you 24/7. For most people, your website is the...
 
                         </p>
-                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/the-importance-of-having-a-website-for-your-small-business-in-2025`}>Read more</NavLink>
+                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/your-website-is-your-first-impression`}>Read more</NavLink>
 
                     </div>
 

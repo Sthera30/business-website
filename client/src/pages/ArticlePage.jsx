@@ -13,7 +13,10 @@ function ArticlePage() {
                 <meta name="description" content="In 2025, a business website is no longer optional. Learn why your small business must have a digital presence to stay competitive." />
                 <meta name="keywords" content="small business website 2025, why you need a website, digital presence 2025, Sthe Digital Agency, online visibility" />
 
+                {/* Recommended additional tags */}
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="canonical" href="https://www.sthedigitalagency.co.za/the-importance-of-having-a-website-for-your-small-business-in-2025" />
+                <meta name="author" content="Sthe Digital Agency" />
 
                 {/* Open Graph */}
                 <meta property="og:title" content="Why Your Small Business Needs a Website in 2025" />
@@ -21,12 +24,14 @@ function ArticlePage() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.sthedigitalagency.co.za/the-importance-of-having-a-website-for-your-small-business-in-2025" />
                 <meta property="og:image" content={`https://www.sthedigitalagency.co.za/${img1}`} />
+                <meta property="og:site_name" content="Sthe Digital Agency" />
 
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Why Your Small Business Needs a Website in 2025" />
                 <meta name="twitter:description" content="In-depth article on the benefits of having a professional website for your small business in 2025." />
                 <meta name="twitter:image" content={`https://www.sthedigitalagency.co.za/${img1}`} />
+
             </Helmet>
 
             <Article />
