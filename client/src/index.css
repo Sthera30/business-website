@@ -603,6 +603,14 @@ html {
 }
 
 
+@media (max-width: 360px) {
+  
+  .article-inner-content p{
+    font-size: 1rem;
+  }
+
+}
+
 @media (max-width: 350px) {
 
   html {

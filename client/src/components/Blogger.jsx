@@ -166,8 +166,8 @@ function Blogger() {
 
                     <div className='foo'>
 
-                        <p><a href="mailto:support@sthedigitalagency.co.za"><FaMailBulk />&nbsp;support@sthedigitalagency.co.za</a></p>
-                        <p style={{ marginTop: '-1rem' }}><a href="https://www.sthedigitalagency.co.za/" target="_blank" rel="noopener noreferrer"><Globe style={{color: 'blue'}} />&nbsp;Sthe Digital Agency</a> </p>
+                        <p style={{color: 'blue', fontSize: '1.2rem'}}><a href="mailto:support@sthedigitalagency.co.za"><FaMailBulk />&nbsp;support@sthedigitalagency.co.za</a></p>
+                        <p style={{ marginTop: '-1rem', fontSize: '1.2rem' }}><a href="https://www.sthedigitalagency.co.za/" target="_blank" rel="noopener noreferrer"><Globe style={{color: 'blue'}} />&nbsp;Sthe Digital Agency</a> </p>
 
 
                     </div>

@@ -22,17 +22,17 @@ function App() {
 
             <Route path={"/"} element={<Main_layout />}>
 
-            <Route index element={<HomePage />} />
-            <Route path={"/about-sthe-digital-agency"} element={<AboutUsPage />} />
-            <Route path={"/sthe-digital-agency-services"} element={<ServicesPage />} />
-            <Route path={"/blog"} element={<BlogPage />} />
-            <Route path={"/the-importance-of-having-a-website-for-your-small-business-in-2025"} element={<ArticlePage />} />
-            <Route path={"/why-i-trust-web-way-for-all-my-website-hosting-needs-in-south-africa"} element={<ArticlesPage />} />
-            <Route path={"/why-seo-is-essential-for-every-business-in-2025"} element={<BlogerPage />} />
-            <Route path={"/your-website-is-your-first-impression"} element={<Article4Page />} />
-            <Route path={"/what-is-mobile-first-web-design"} element={<Article5Page />} />
-            <Route path={"/what-to-expect-when-working-with-a-web-developer"} element={<Article6Page />} />
-            <Route path={"/contact-sthe-digital-agency"} element={<ContactUsPage />} />
+                <Route index element={<HomePage />} />
+                <Route path={"/about-sthe-digital-agency"} element={<AboutUsPage />} />
+                <Route path={"/sthe-digital-agency-services"} element={<ServicesPage />} />
+                <Route path={"/blog"} element={<BlogPage />} />
+                <Route path={"/the-importance-of-having-a-website-for-your-small-business-in-2025"} element={<ArticlePage />} />
+                <Route path={"/why-i-trust-web-way-for-all-my-website-hosting-needs-in-south-africa"} element={<ArticlesPage />} />
+                <Route path={"/why-seo-is-essential-for-every-business-in-2025"} element={<BlogerPage />} />
+                <Route path={"/your-website-is-your-first-impression"} element={<Article4Page />} />
+                <Route path={"/what-is-mobile-first-web-design"} element={<Article5Page />} />
+                <Route path={"/what-to-expect-when-working-with-a-web-developer"} element={<Article6Page />} />
+                <Route path={"/contact-sthe-digital-agency"} element={<ContactUsPage />} />
 
             </Route>
 
