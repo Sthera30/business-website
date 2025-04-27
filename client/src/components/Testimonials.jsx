@@ -76,7 +76,7 @@ function Testimonials() {
                                 <img src={Img2} alt="Vuyolwethu mkwakwi sharing his experience with Sthe Digital Agency's services" loading='lazy' width={720} height={719} />
                                 <div className="user-info">
                                     <p>Vuyolwethu Mkwakwi</p>
-                                    <p>Tennis Player</p>
+                                    <p>Music / Artist</p>
                                 </div>
                             </div>
                         </div>
