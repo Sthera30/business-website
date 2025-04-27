@@ -12,6 +12,9 @@ import BlogerPage from './pages/BlogerPage.jsx'
 import Article4Page from './pages/Article4Page.jsx'
 import Article5Page from './pages/Article5Page.jsx'
 import Article6Page from './pages/Article6Page.jsx'
+import Article7Page from './pages/Article7Page.jsx'
+import Article8Page from './pages/Article8Page.jsx'
+import Article9Page from './pages/Article9Page.jsx'
 
 function App() {
 
@@ -32,7 +35,11 @@ function App() {
                 <Route path={"/your-website-is-your-first-impression"} element={<Article4Page />} />
                 <Route path={"/what-is-mobile-first-web-design"} element={<Article5Page />} />
                 <Route path={"/what-to-expect-when-working-with-a-web-developer"} element={<Article6Page />} />
+                <Route path={"/why-every-business-needs-a-blog-to-stay-relevant-and-visible-online"} element={<Article7Page />} />
+                <Route path={"/what-makes-a-homepage-great"} element={<Article8Page />} />
+                <Route path="/custom-vs-template-websites-which-is-right-for-growing-your-business-online" element={<Article9Page />} />
                 <Route path={"/contact-sthe-digital-agency"} element={<ContactUsPage />} />
+                
 
             </Route>
 

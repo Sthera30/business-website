@@ -12,6 +12,10 @@ import img3 from '../../public/importance-of-seo-for-your-business.jpeg'
 import img4 from '../../public/modern-website-landing-page-design-reviews-optimization.jpg'
 import img5 from '../../public/mobile-first-web-design-development-process.png'
 import img6 from '../../public/web-developer-coding-professional-business-collaboration.jpg'
+import img7 from '../../public/business-blogging-content-creation.jpeg'
+import img8 from '../../public/professional-homepage-layout.png'
+import img9 from '../../public/business-decision-crossroads-question-marks.png'
+
 
 
 function Blog() {
@@ -51,7 +55,90 @@ function Blog() {
 
                 <div className='blog-box'>
 
-                    <img src={img3} alt="Computer mouse connecting to the letter O in SEO, illustrating the interactive nature of search engine optimization for online businesses" title="SEO-Digital-Marketing-Online-Connection-Concept" loading='lazy' />
+                    <img src={img7} alt="Person showing a blog post on a laptop for business content creation" title="Business Blogging and Content Creation" loading='lazy' width={894} height={461} />
+
+                    <div className='content'>
+
+                        <NavLink to={`/why-every-business-needs-a-blog-to-stay-relevant-and-visible-online`}><h2 style={{ color: '#333' }}>Why Every Business Needs a Blog to Stay Relevant and Visible Online</h2></NavLink>
+                        <div className='blog-content-info'>
+                            <p><FaUser />&nbsp;Sthe Digital Agency</p>
+                            <p><Calendar />&nbsp;
+
+                                Sun 27 April, 2025
+
+                            </p>
+
+                        </div>
+                        <p className='desc' style={{ marginBottom: '2rem' }}>
+
+                            In today's fast-moving digital world, having a website is only the beginning. If you want your business to truly stand out, stay relevant, and continue growing online, you need more than jus...
+                        </p>
+                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/why-every-business-needs-a-blog-to-stay-relevant-and-visible-online`}>Read more</NavLink>
+
+                    </div>
+
+                </div>
+
+
+                <div className='blog-box'>
+
+                    <img src={img8} alt="Business website homepage design showing a clean, professional interface for better user experience" title="Professional Business Homepage Layout" width={2000} height={1111} loading='lazy' />
+
+                    <div className='content'>
+
+                        <NavLink to={`/what-makes-a-homepage-great`}><h2 style={{ color: '#333' }}>What Makes a Homepage Great? Key Elements You Should Never Ignore</h2></NavLink>
+                        <div className='blog-content-info'>
+                            <p><FaUser style={{ width: '1.5rem', height: '1.5rem' }} />&nbsp;Sthe Digital Agency</p>
+                            <p><Calendar style={{ width: '1.5rem', height: '1.5rem' }} />&nbsp;
+
+                                Sun 27 April, 2025
+
+                            </p>
+
+                        </div>
+                        <p className='desc' style={{ marginBottom: '2rem' }}>
+
+                            Your homepage is the digital front door to your business. It’s the first impression visitors get when they land on your website, and it plays a crucial role in shap...
+
+                        </p>
+                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/what-makes-a-homepage-great`}>Read more</NavLink>
+
+                    </div>
+
+                </div>
+
+
+                <div className='blog-box'>
+
+                    <img src={img9} alt="Business decision crossroads with question marks symbolizing choice between custom or template websites" title="Choosing the Right Path for Your Business Website: Custom vs Template" width={849} height={476} loading='lazy' />
+
+                    <div className='content'>
+
+                        <NavLink to={`/custom-vs-template-websites-which-is-right-for-growing-your-business-online`}><h2 style={{ color: '#333' }}>Custom vs Template Websites: Which is Right for Growing Your Business Online?</h2></NavLink>
+                        <div className='blog-content-info'>
+                            <p><FaUser style={{ width: '1.5rem', height: '1.5rem' }} />&nbsp;Sthe Digital Agency</p>
+                            <p><Calendar style={{ width: '1.5rem', height: '1.5rem' }} />&nbsp;
+
+                                Sun 27 April, 2025
+
+                            </p>
+
+                        </div>
+                        <p className='desc' style={{ marginBottom: '2rem' }}>
+
+                            When it’s time to build your business website, one of the first decisions you’ll face is whether to go for a custom-built website or use a template-bas...
+
+                        </p>
+                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/custom-vs-template-websites-which-is-right-for-growing-your-business-online`}>Read more</NavLink>
+
+                    </div>
+
+                </div>
+
+
+                <div className='blog-box'>
+
+                    <img src={img3} alt="Computer mouse connecting to the letter O in SEO, illustrating the interactive nature of search engine optimization for online businesses" title="SEO-Digital-Marketing-Online-Connection-Concept" width={753} height={517} loading='lazy' />
 
                     <div className='content'>
 
@@ -208,6 +295,7 @@ function Blog() {
                     </div>
 
                 </div>
+
 
 
 

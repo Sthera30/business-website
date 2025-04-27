@@ -35,7 +35,7 @@ function Blogger() {
 
                 <div className='article-content'>
 
-                    <img src={img1} alt={'"Computer mouse connecting to the letter O in SEO, illustrating the interactive nature of search engine optimization for online businesses'} title={"SEO-Digital-Marketing-Online-Connection-Concept"} loading='lazy' />
+                    <img src={img1} alt={'"Computer mouse connecting to the letter O in SEO, illustrating the interactive nature of search engine optimization for online businesses'} title={"SEO-Digital-Marketing-Online-Connection-Concept"} width={753} height={517} loading='lazy' />
                     <div className='article-content-desc'>
 
                         <h2>Why SEO is Essential for Every Business in 2025: How Showing Up on Google Can Transform Your Brand</h2>
