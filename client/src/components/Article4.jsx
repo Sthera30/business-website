@@ -31,12 +31,11 @@ function Article4() {
                         <h2>Your Website is Your First Impression — Here’s How to Make It Count</h2>
                         <p>
 
-                            Imagine meeting a potential customer for the first time. You’d want to look sharp, speak clearly, and make a strong impression, right? Well — your website does that for you 24/7. For most people, your <b>website is their first interaction with your business.</b>  Before they call, email, or visit — they’re checking you out online. And just like in real life, <b>first impressions matter.</b>
+                            Imagine meeting a potential customer for the first time. You’d want to look sharp, speak clearly, and make a strong impression, right? Well - your website does that for you 24/7. For most people, your <b>website is their first interaction with your business.</b>  Before they call, email, or visit - they’re checking you out online. And just like in real life, <b>first impressions matter.</b>
 
                         </p>
 
-                        <p>Here’s how to make sure your website isn’t turning people away before you even get the chance to connect.</p>
-
+                        <p>Whether you're looking for <b> web design Gqeberha, web design Uitenhage,</b> or anywhere in <b>South Africa,</b> your website is your most important digital asset.</p>
                     </div>
 
                     <div
@@ -67,7 +66,8 @@ function Article4() {
                     </div>
 
                     <h2 id="design-that-looks-professional-and-modern?" style={{ fontWeight: 300 }}>1. Design That Looks Professional and Modern</h2>
-                    <p>People judge within seconds. If your site looks outdated, cluttered, or poorly designed, they might think your business is too.</p>
+                    <p>People judge within seconds. If your site looks outdated, cluttered, or poorly designed, they might think your business is too. That’s why investing in <b>custom website design</b> is key - especially if you’re <b>targeting web design South Africa</b> or need a trusted partner for <b>web design Uitenhage or Gqeberha.
+                    </b></p>
                     <p>A clean, modern design instantly tells your visitors:</p>
                     <ul className='un'>
 
@@ -77,8 +77,11 @@ function Article4() {
 
                     </ul>
 
+                    <p>Don’t settle for cookie-cutter templates - stand out with a <b>conversion-focused website </b>that represents your brand authentically.
+                    </p>
+
                     <h2 id='speed-=-trust-+-conversions' style={{ fontWeight: 300, marginTop: '4rem' }}>Speed = Trust + Conversions</h2>
-                    <p>A slow site doesn’t just annoy visitors — it tells them you’re not serious.</p>
+                    <p>A slow site doesn’t just annoy visitors - it tells them you’re not serious.</p>
                     <ul className='un'>
 
                         <li>1 in 2 people leave a website if it takes longer than 3 seconds to load.</li>
@@ -86,25 +89,38 @@ function Article4() {
 
                     </ul>
 
-                    <p><b>Make sure your site loads quickly</b> on mobile and desktop. Compress images, remove unnecessary animations, and use proper hosting.</p>
+                    <p>If you want to rank high - especially with <b>SEO services Gqeberha</b> or <b>SEO services South Africa</b> - speed is essential.</p>
 
                     <h2 id='mobile-friendly-is-a-must' style={{ fontWeight: 300, marginTop: '4rem' }}>3. Mobile-Friendly is a Must</h2>
                     <p>More than <b>70% of users browse from their phones.</b> If your website isn’t responsive, you’re losing leads without even knowing it.</p>
 
-                    <p>Your site should automatically adjust to any screen size — phone, tablet, or laptop. Mobile users should be able to scroll easily, tap buttons, and find info fast.</p>
+                    <p><b>A mobile-friendly website</b> should:</p>
+                    <ul className='un'>
 
+                        <li>Load quickly on all devices</li>
+                        <li>Scale visuals and fonts properly</li>
+                        <li>Keep navigation and buttons finger-friendly</li>
+
+                    </ul>
+
+                    <p>Whether your clients are in <b>Gqeberha, Uitenhage,</b> or anywhere in <b>South Africa, responsive design</b> ensures your site works for everyone.</p>
 
                     <h2 id='clear-messaging:-tell-them-who-you-are-and-what-you-do' style={{ fontWeight: 300, marginTop: '4rem' }}>Clear Messaging: Tell Them Who You Are and What You Do</h2>
                     <p>When someone lands on your homepage, can they tell what your business offers in 5 seconds or less?</p>
-                    <p>Use simple, direct language:</p>
-                    <p>Don’t make people guess — guide them with clarity and confidence.</p>
-                    <p style={{ marginTop: '-.8rem' }}><b>“We build professional websites that grow your business.”</b></p>
-                    <p style={{ marginTop: '-.8rem' }}>Don’t make people guess — guide them with clarity and confidence.</p>
+                    <p>If not, you’re likely losing potential leads.</p>
+                    <p>Be clear and direct:</p>
 
+                    <ul>
+
+                        <li><b>We offer <b>professional web design and SEO services in Gqeberha and South Africa</b> to help your business grow online.</b></li>
+
+                    </ul>
+
+                    <p>When your message is clear, visitors stay longer, explore more, and reach out.</p>
 
                     <h2 id='strong-calls-to-action-(CTAs)' style={{ fontWeight: 300, marginTop: '4rem' }}>5. Strong Calls to Action (CTAs)</h2>
-                    <p>Don’t just inform — <b>guide</b> your visitors. Whether you want them to book a consultation, send a message, or view your services, make it obvious.</p>
-                    <p>Use buttons like:</p>
+                    <p>A beautiful website that doesn’t lead users anywhere? That’s a missed opportunity.</p>
+                    <p>Use powerful CTAs like:</p>
 
                     <ul className='un'>
 
@@ -114,8 +130,7 @@ function Article4() {
 
                     </ul>
 
-                    <p>Your website should be working for you — generating leads and starting conversations.</p>
-
+                    <p>Whether you’re promoting <b>web design Uitenhage</b> or <b>SEO services South Africa,</b> clear buttons convert browsers into buyers.</p>
 
                     <h2 id='functionality-matters-too' style={{ fontWeight: 300, marginTop: '4rem' }}>6. Functionality Matters Too</h2>
 
@@ -131,19 +146,16 @@ function Article4() {
 
                     </ul>
 
-                    <p>People should find what they need fast without getting frustrated.</p>
+                    <p><b>Sthe Digital Agency</b> makes sure every site we build not only looks great but works perfectly - because a good user experience is part of strong web design.</p>
 
                     <h2 id='final-thoughts:-don’t-just-build-a-website—make-sure-people-can-find-it' style={{ fontWeight: 300, marginTop: '4rem' }}>Final Thoughts: Your Website = Your Online Salesperson</h2>
 
-                    <p>Your website is more than just an online brochure — it’s your <b>24/7 sales rep.</b> When done right, it builds trust, answers questions, and convinces people to reach out.</p>
-                    <p>At <b>Sthe Digital Agency,</b> I build websites that don’t just look good — they work hard for your business. Whether you’re starting fresh or need a redesign, let’s make sure your online first impression turns into real results.</p>
+                    <p>Your website is more than just an online brochure - it’s your <b>24/7 sales rep.</b> When done right, it builds trust, answers questions, and convinces people to reach out.</p>
+                    <p>At  <b>Sthe Digital Agency,</b> I specialize in <b>web design Gqeberha, web design Uitenhage,</b> and provide <b>SEO services South Africa-wide.</b> Whether you need a full redesign or a brand-new build, we’ll ensure your website looks professional, loads fast, and helps grow your business.</p>
 
-                    <div className='foo'>
-
-                        <p><a href="https://www.sthedigitalagency.co.za/" target="_blank" rel="noopener noreferrer"><Globe style={{ color: 'blue' }} />&nbsp;Visit Sthe Digital Agency</a> </p>
-                        <p style={{ marginTop: '-1rem' }}><a href="mailto:support@sthedigitalagency.co.za"><FaMailBulk />&nbsp;support@sthedigitalagency.co.za</a></p>
-
-                    </div>
+                    <h2 style={{fontWeight: '300'}}>Ready to Upgrade Your Online Presence?</h2>
+                    <p>Let’s create a website that not only looks amazing - but <b>works hard to get results.</b></p>
+                    <p><b>Contact <a href="https://www.sthedigitalagency.co.za/" target="_blank" rel="noopener noreferrer">Sthe Digital Agency</a> for expert web design and SEO services in Gqeberha, Uitenhage, and across South Africa.</b></p>
 
                     <div className='article-inner-content'>
 

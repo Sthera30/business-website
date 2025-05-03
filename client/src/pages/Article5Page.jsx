@@ -12,11 +12,11 @@ function Article5Page() {
                 <title>Mobile-First Web Design: Why It Matters More Than Ever in 2025 | Sthe Digital Agency</title>
                 <meta
                     name="description"
-                    content="In 2025, mobile-first design is no longer optional — it's essential. Learn why designing for smartphones first improves SEO, speed, and conversions."
+                    content="In 2025, mobile-first design is no longer optional — it's essential. Learn why designing for smartphones first improves SEO, speed, and conversions for businesses in Gqeberha, Uitenhage, and across South Africa."
                 />
                 <meta
                     name="keywords"
-                    content="mobile-first web design, responsive design 2025, mobile website SEO, mobile friendly site, Sthe Digital Agency, modern web design, website conversion optimization"
+                    content="mobile-first web design, responsive design 2025, mobile website SEO, mobile friendly site, web design in Gqeberha, web design in Uitenhage, SEO services in South Africa, SEO services in Gqeberha, website conversion optimization, Sthe Digital Agency"
                 />
 
                 {/* Recommended additional tags */}
@@ -28,7 +28,7 @@ function Article5Page() {
                 <meta property="og:title" content="Mobile-First Web Design: Why It Matters More Than Ever in 2025" />
                 <meta
                     property="og:description"
-                    content="Mobile-first design isn't a trend — it's a necessity. Discover how mobile-friendly websites rank higher, load faster, and convert better in 2025."
+                    content="Mobile-first design isn't a trend — it's a necessity. Discover how mobile-friendly websites rank higher, load faster, and convert better for clients in Gqeberha, Uitenhage, and all over South Africa."
                 />
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.sthedigitalagency.co.za/what-is-mobile-first-web-design" />
@@ -43,7 +43,7 @@ function Article5Page() {
                 <meta name="twitter:title" content="Mobile-First Web Design in 2025: Why It’s a Must-Have" />
                 <meta
                     name="twitter:description"
-                    content="Over 70% of users browse from mobile devices. Learn how mobile-first web design helps your business grow in 2025 and beyond."
+                    content="Over 70% of users browse from mobile devices. Learn how mobile-first web design helps your business grow — especially if you're in Gqeberha, Uitenhage, or anywhere in South Africa."
                 />
                 <meta
                     name="twitter:image"

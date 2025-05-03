@@ -12,14 +12,14 @@ function ContactUsPage() {
     <div>
 
       <Helmet>
-        <title>Contact Sthe Digital Agency | Web Development Services in South Africa</title>
+        <title>Contact Us | Web Design in Gqeberha & Uitenhage | Sthe Digital Agency</title>
         <meta
           name="description"
-          content="Get in touch with Sthe Digital Agency for professional web development services. Reach out for a consultation, quote, or to discuss your website project today."
+          content="Contact Sthe Digital Agency for expert web design in Gqeberha and Uitenhage, SEO services across South Africa, and custom websites in the Eastern Cape. Let's bring your website vision to life."
         />
         <meta
           name="keywords"
-          content="contact web developers, web design consultation, website quote, Sthe Digital Agency contact, South African web development"
+          content="web design Gqeberha, web design Uitenhage, SEO services Gqeberha, SEO services South Africa, custom websites Eastern Cape, contact web developers, website consultation South Africa"
         />
 
         {/* Additional recommended tags */}
@@ -27,16 +27,16 @@ function ContactUsPage() {
         <link rel="canonical" href="https://www.sthedigitalagency.co.za/contact-sthe-digital-agency" />
 
         {/* Open Graph tags */}
-        <meta property="og:title" content="Contact Sthe Digital Agency | Web Development Services" />
-        <meta property="og:description" content="Get in touch with Sthe Digital Agency for professional web development services. Reach out for a consultation, quote, or to discuss your website project today." />
+        <meta property="og:title" content="Contact Us | Web Design Gqeberha & SEO Services South Africa" />
+        <meta property="og:description" content="Reach out to Sthe Digital Agency for web design in Gqeberha and Uitenhage, SEO services in South Africa, and custom web solutions in the Eastern Cape." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.sthedigitalagency.co.za/contact-sthe-digital-agency" />
         <meta property="og:image" content={`https://www.sthedigitalagency.co.za/${img1}`} />
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Contact Sthe Digital Agency | Web Development Services" />
-        <meta name="twitter:description" content="Get in touch with Sthe Digital Agency for professional web development services. Reach out for a consultation, quote, or to discuss your website project today." />
+        <meta name="twitter:title" content="Contact Sthe Digital Agency | Web Design & SEO Services" />
+        <meta name="twitter:description" content="Let's talk web design, SEO, and custom websites for your business in Gqeberha, Uitenhage, and across South Africa. Contact Sthe Digital Agency today." />
         <meta name="twitter:image" content={`https://www.sthedigitalagency.co.za/${img2}`} />
       </Helmet>
 

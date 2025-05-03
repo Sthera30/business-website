@@ -11,9 +11,10 @@ function Article7Page() {
             <Helmet>
 
                 {/* Primary Meta Tags */}
-                <title>Why Every Business Needs a Blog to Stay Relevant and Visible Online | Sthe Digital Agency</title>
-                <meta name="description" content="Learn why blogging is key to business success. Boost SEO, build trust, drive traffic, and turn visitors into loyal customers with a smart blog strategy" />
-                <meta name="keywords" content="business blogging, SEO blogging, content marketing, blog strategy, build brand authority, customer engagement, blogging tips, website traffic, blogging for business, Sthe Digital Agency" />
+                <title>Why Every Business Needs a Blog | SEO Services & Web Design in Gqeberha | Sthe Digital Agency</title>
+                <meta name="description" content="Discover why blogging is essential for businesses in Gqeberha, Uitenhage, and across South Africa. Improve SEO, support custom websites, and drive web design success with fresh content." 
+ />
+                <meta name="keywords" content="web design Gqeberha, web design Uitenhage, SEO services Gqeberha, SEO services South Africa, custom websites Eastern Cape, business blogging, content marketing South Africa, blog strategy for SEO, Sthe Digital Agency" />
 
                 {/* Recommended additional tags */}
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,16 +23,16 @@ function Article7Page() {
 
                 {/* Open Graph tags */}
                 <meta property="og:type" content="article" />
-                <meta property="og:title" content="Why Every Business Needs a Blog to Stay Relevant and Visible Online | Sthe Digital Agency" />
-                <meta property="og:description" content="Discover how blogging keeps your business visible, trusted, and growing online. Drive organic traffic, connect with your audience, and stay ahead in 2025 with a strong blog strategy." />
+                <meta property="og:title" content="Why Every Business Needs a Blog | SEO & Web Design Gqeberha | Sthe Digital Agency" />
+                <meta property="og:description" content="Blogging boosts visibility for web design in Uitenhage, Gqeberha, and across South Africa. Learn how blogs support SEO services and custom websites in the Eastern Cape." />
                 <meta property="og:url" content="https://www.sthedigitalagency.co.za/why-every-business-needs-a-blog-to-stay-relevant-and-visible-online" />
                 <meta property="og:image" content={`https://www.sthedigitalagency.co.za/${img1}`} />
                 <meta property="og:site_name" content="Sthe Digital Agency" />
 
                 {/* Twitter Card tags */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Why Every Business Needs a Blog to Stay Relevant and Visible Online | Sthe Digital Agency" />
-                <meta name="twitter:description" content="Learn how blogging drives SEO, builds brand authority, and grows your business in a competitive online world. Start leveraging the power of blogging today!" />
+                <meta name="twitter:title" content="Why Every Business Needs a Blog | Gqeberha Web Design & SEO Services" />
+                <meta name="twitter:description" content="Blogging keeps your site fresh and visible. Ideal for web design in Gqeberha, SEO in South Africa, and building trust with clients across the Eastern Cape." />
                 <meta name="twitter:image" content={`https://www.sthedigitalagency.co.za/${img1}`} />
 
             </Helmet>

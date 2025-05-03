@@ -17,9 +17,9 @@ function HomePage() {
 
             <Helmet>
 
-                <title>Sthe Digital Agency | Web Development Services</title>
+                <title>Sthe Digital Agency | Web Design & SEO Services in Gqeberha, Uitenhage & South Africa</title>
                 <meta name='description' content='Professional web development and design services by Sthe Digital Agency. We create custom, responsive websites tailored to your business needs.' />
-                <meta name='keywords' content='web development, custom websites, React development, responsive design, Sthe Digital Agency' />
+                <meta name='keywords' content='web design Gqeberha, web design Uitenhage, SEO services Gqeberha, web design South Africa, SEO services South Africa, responsive websites, Sthe Digital Agency, small business websites' />
 
                 {/* Recommended additional tags */}
 
@@ -27,16 +27,16 @@ function HomePage() {
                 <link rel="canonical" href="https://www.sthedigitalagency.co.za" />
 
                 {/* Open Graph tags */}
-                <meta property="og:title" content="Sthe Digital Agency | Web Development Services" />
-                <meta property="og:description" content="Professional web development and design services by Sthe Digital Agency. We create custom, responsive websites tailored to your business needs." />
+                <meta property="og:title" content="Sthe Digital Agency | Web Design & SEO in Gqeberha, Uitenhage & South Africa" />
+                <meta property="og:description" content="Get expert web design and SEO services in Gqeberha, Uitenhage, and across South Africa with Sthe Digital Agency. We build fast, modern, and results-driven websites." />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://www.sthedigitalagency.co.za" />
                 <meta property="og:image" content={`https://www.sthedigitalagency.co.za/${img1}`} />
 
                 {/* Twitter Card tags */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Sthe Digital Agency | Web Development Services" />
-                <meta name="twitter:description" content="Professional web development and design services by Sthe Digital Agency. We create custom, responsive websites tailored to your business needs." />
+                <meta name="twitter:title" content="Sthe Digital Agency | Web Design & SEO Gqeberha & South Africa" />
+                <meta name="twitter:description" content="Boost your business with our web design and SEO services in Gqeberha, Uitenhage, and South Africa. Contact Sthe Digital Agency today." />
                 <meta name="twitter:image" content={`https://www.sthedigitalagency.co.za/${img2}`} />
 
             </Helmet>

@@ -71,7 +71,7 @@ function Blog() {
                         </div>
                         <p className='desc' style={{ marginBottom: '2rem' }}>
 
-                            In today's fast-moving digital world, having a website is only the beginning. If you want your business to truly stand out, stay relevant, and continue growing online, you need more than jus...
+                        In today’s fast-moving digital world, having a website is only the beginning. If you’re a small business owner in Gqeberha, Uitenhage, or anywh...
                         </p>
                         <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/why-every-business-needs-a-blog-to-stay-relevant-and-visible-online`}>Read more</NavLink>
 
@@ -126,8 +126,7 @@ function Blog() {
                         </div>
                         <p className='desc' style={{ marginBottom: '2rem' }}>
 
-                            When it’s time to build your business website, one of the first decisions you’ll face is whether to go for a custom-built website or use a template-bas...
-
+                        If you're a business owner exploring web design in Gqeberha, Uitenhage, or anywhere in South Africa, one of the first decisions you'll face is whe...
                         </p>
                         <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/custom-vs-template-websites-which-is-right-for-growing-your-business-online`}>Read more</NavLink>
 
@@ -154,7 +153,7 @@ function Blog() {
                         </div>
                         <p className='desc' style={{ marginBottom: '2rem' }}>
 
-                            In today’s digital world, having a website isn’t enough. If your business doesn’t show up on Google, you’re basically invisible to your customers. That’s where SEO comes in — the secret weapon that helps your website get found, builds trust with potenti...
+                            In today’s digital world, having a website isn’t enough. If your business doesn’t show up on Google, you’re basically invisible to your customers. That’s where SEO comes in - the secret weapon that helps your website get found, builds trust with potenti...
 
                         </p>
                         <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/why-seo-is-essential-for-every-business-in-2025`}>Read more</NavLink>
@@ -182,7 +181,7 @@ function Blog() {
                         <p className='desc' style={{ marginBottom: '2rem' }}>
 
                             Imagine meeting a potential customer for the first time. You’d want to look sharp, speak clearly, and make a strong impression, right?
-                            Well — your website does that for you 24/7. For most people, your website is the...
+                            Well - your website does that for you 24/7. For most people, your website is the...
 
                         </p>
                         <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/your-website-is-your-first-impression`}>Read more</NavLink>
@@ -208,8 +207,7 @@ function Blog() {
 
                         </div>
                         <p className='desc' style={{ marginBottom: '2rem' }}>
-                            Mobile-first means designing your website for smartphones and small screens first, then scaling it up for tablets and desktops. It’s the opposite of how many old websites were built — where mobi...
-                        </p>
+                        Mobile-first web design means creating your website for smartphones and small screens first, then scaling it up for tablets and desktops. It’s the opposite of how webs...                        </p>
                         <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/what-is-mobile-first-web-design`}>Read more</NavLink>
 
                     </div>
@@ -287,8 +285,8 @@ function Blog() {
                         </div>
                         <p className='desc' style={{ marginBottom: '2rem' }}>
 
-                            In 2025, having a website is no longer optional for small businesses—it's essential for success. With more consumers turning to the internet for their buying decisions, a well-designed website boosts your online visibility, ensuring potential customers can find you easily. A website also builds cred...
-
+                        In 2025, having a website is no longer optional for small businesses-it’s essential for success. With more consumers turning to the internet for their buying decisions, a well-designed website boosts your online visibility, ensuring potential customers can find you easily. Whether you're offering web desi...
+                        
                         </p>
                         <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/the-importance-of-having-a-website-for-your-small-business-in-2025`}>Read more</NavLink>
 

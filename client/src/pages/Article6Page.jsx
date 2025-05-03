@@ -9,11 +9,14 @@ function Article6Page() {
         <div>
 
             <Helmet>
-                
+
                 {/* Primary Meta Tags */}
                 <title>What to Expect When Working with a Web Developer | Sthe Digital Agency</title>
-                <meta name="description" content="Thinking about hiring a web developer? Here's a clear guide to what to expect, from discovery to launch — and how to get real results for your business." />
-                <meta name="keywords" content="web developer guide, working with a web developer, business website, Sthe Digital Agency, website design process, hire a developer, business website help, web development 2025" />
+                <meta
+                    name="description"
+                    content="Hiring a web developer for your business in Gqeberha, Uitenhage, or anywhere in South Africa? Discover what to expect during the web design and development process – from discovery to launch."
+                />
+                <meta name="keywords" content="web developer guide, working with a web developer, web design Gqeberha, web design Uitenhage, SEO services South Africa, business website, Sthe Digital Agency, website design process, hire a developer, SEO Gqeberha, business website help, web development 2025" />
 
                 {/* Recommended additional tags */}
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,7 +26,7 @@ function Article6Page() {
                 {/* Open Graph tags */}
                 <meta property="og:type" content="article" />
                 <meta property="og:title" content="What to Expect When Working with a Web Developer | Sthe Digital Agency" />
-                <meta property="og:description" content="A business-friendly guide on how web development works — from discovery to design, development, and post-launch support. Let’s build something great together." />
+                <meta property="og:description" content="A business-friendly guide on how web development works – from discovery to design, development, and post-launch support. Ideal for businesses in Gqeberha, Uitenhage, and South Africa." />
                 <meta property="og:url" content="https://www.sthedigitalagency.co.za/what-to-expect-when-working-with-a-web-developer" />
                 <meta property="og:image" content={`https://www.sthedigitalagency.co.za/${img1}`} />
                 <meta property="og:site_name" content="Sthe Digital Agency" />
@@ -31,7 +34,7 @@ function Article6Page() {
                 {/* Twitter Card tags */}
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="What to Expect When Working with a Web Developer | Sthe Digital Agency" />
-                <meta name="twitter:description" content="Hiring a web developer? Here’s a simple breakdown of what the process looks like — and how to set your project up for success." />
+                <meta name="twitter:description" content="Thinking about web design or SEO services in Gqeberha, Uitenhage, or anywhere in South Africa? Here’s how to work effectively with a web developer." />
                 <meta name="twitter:image" content={`https://www.sthedigitalagency.co.za/${img1}`} />
 
             </Helmet>

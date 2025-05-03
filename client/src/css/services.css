@@ -1,26 +1,28 @@
-.services-container{
+.services-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+    max-width: 80rem;
     padding: 0rem 5%;
 }
 
-.services-container h2{
+.services-container h2 {
     font-weight: 300;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2.8rem;
 }
 
-.services-container p{
-    max-width: 45rem;
+.services-container p {
+    max-width: 55rem;
     font-size: 1.3rem;
     font-weight: 300;
     line-height: 1.2;
 }
 
-.services-container ul li{
+.services-container ul li {
     line-height: 1.6;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
 }

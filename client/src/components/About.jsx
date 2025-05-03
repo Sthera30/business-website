@@ -33,13 +33,17 @@ function About() {
 
                     <h2>About Sthe Digital Agency</h2>
 
-                    <p>At Sthe Digital Agency, we are dedicated to creating stunning websites that not only look great, but also function flawlessly. With a strong passion for web design and development, our team of full-stack developers combines creativity with technical expertise to bring your vision to life. Whether you're a small business looking to establish an online presence or a large corporation in need of a website refresh, Sthe Digital Agency is here to help.
+                    <p>
+
+                        Welcome to Sthe Digital Agency, your go-to partner for <b>web design in Gqeberha, Uitenhage,</b> and across <b>South Africa. </b>We're passionate about building websites that are clean, modern, and fully functional, helping small businesses and individuals establish a strong online presence.
 
                     </p>
 
-                    <p>In addition to web development, we also focus on user experience (UX) and performance, ensuring that every website we build is fast, responsive, and easy to navigate. Our goal is to create websites that not only attract visitors but also keep them engaged.
+                    <p>We focus on more than just looks. Every site we build is designed to be responsive, easy to navigate, and optimized for performance. Whether you're launching your first website or refreshing an existing one, our goal is to make sure your digital space works for you, day and night.</p>
 
-                        🚀 Let’s build something amazing together! Contact us today to get started on your next web project.</p>
+                    <p>We also offer <b>SEO services in Gqeberha</b> and <b> SEO services across South Africa </b>to help your website rank better on Google and reach the right audience. After all, what’s the point of a beautiful site if no one can find it?</p>
+
+                    <p>Whether you're based in <b>Gqeberha, Uitenhage,</b> or anywhere else in South Africa, we're here to help you stand out online with professional, affordable <b>web design</b> that delivers results.</p>
 
                 </motion.div>
 
@@ -56,14 +60,14 @@ function About() {
                 <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: '.8', delay: '.7' }} className='our-mission-container'>
 
                     <h2>Our Mission</h2>
-                    <p>At Sthe Digital Agency, our mission is to transform businesses through innovative web solutions that drive real results. We combine cutting-edge technology with creative design to build websites that not only look stunning but also perform flawlessly. Our commitment is to deliver custom web experiences that help our clients stand out in the digital landscape and achieve their business goals.</p>
+                    <p>At Sthe Digital Agency, our mission is to empower small businesses and individuals in <b>Gqeberha, Uitenhage,</b> and across <b>South Africa</b> with innovative web solutions that drive real results. We specialize in <b>web design</b> and <b>SEO services</b> that not only look great but also help your website perform at its best. By combining creative design with technical precision, we aim to deliver custom digital experiences that help you stand out online, connect with your audience, and grow your presence in today’s competitive market.</p>
 
                 </motion.div>
 
                 <motion.div initial={{ opacity: 0, y: -100 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: '.8', delay: '.7' }} className='our-mission-container'>
 
                     <h2>Our Vision</h2>
-                    <p>At Sthe Digital Agency, our vision is to become the leading web developer, recognized for delivering exceptional, innovative, and high-performance website solutions.</p>
+                    <p>At Sthe Digital Agency, our vision is to be recognized as a trusted name in<b> web design Gqeberha, web design Uitenhage, </b>and across <b>South Africa </b>delivering exceptional, innovative, and high-performance website solutions. We aim to help businesses grow through expertly crafted websites and <b>effective SEO services South Africa, </b>making it easier for them to connect with their audience and succeed online.</p>
 
                 </motion.div>
 

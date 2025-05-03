@@ -9,14 +9,15 @@ function BlogerPage() {
         <div>
 
             <Helmet>
-                <title>Why SEO is Essential for Every Business in 2025 | Sthe Digital Agency</title>
+                <title>Why SEO is Essential for Every Business in 2025 | SEO Services in Gqeberha & South Africa</title>
                 <meta
                     name="description"
-                    content="Learn why SEO is crucial in 2025 for business growth, brand visibility, and long-term success online. Make sure your customers can find you on Google!"
+                    content="SEO services in Gqeberha, Uitenhage, and South Africa are no longer optional in 2025. Discover how showing up on Google can grow your business, build trust, and drive targeted traffic."
                 />
+
                 <meta
                     name="keywords"
-                    content="SEO 2025, business SEO, digital marketing, search engine optimization, online visibility, Google ranking, website traffic, Sthe Digital Agency"
+                    content="SEO services South Africa, SEO Gqeberha, SEO Uitenhage, web design South Africa, Google ranking 2025, SEO for business, digital marketing, online visibility, Sthe Digital Agency"
                 />
 
                 {/* Recommended additional tags */}
@@ -28,7 +29,7 @@ function BlogerPage() {
                 <meta property="og:title" content="Why SEO is Essential for Every Business in 2025" />
                 <meta
                     property="og:description"
-                    content="SEO helps businesses stand out online in 2025. Discover why showing up on Google is a game-changer for brand visibility and growth."
+                    content="In 2025, your website needs SEO to get found. Discover the impact of professional SEO services in Gqeberha and beyond for long-term business growth and visibility."
                 />
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.sthedigitalagency.co.za/why-seo-is-essential-for-every-business-in-2025" />
@@ -43,7 +44,7 @@ function BlogerPage() {
                 <meta name="twitter:title" content="Why SEO is Essential for Every Business in 2025" />
                 <meta
                     name="twitter:description"
-                    content="Make your business stand out on Google. Learn why SEO in 2025 is more important than ever."
+                    content="Get found online in 2025. Discover why SEO in Gqeberha, Uitenhage, and South Africa matters more than ever."
                 />
                 <meta
                     name="twitter:image"

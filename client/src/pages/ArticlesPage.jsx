@@ -10,8 +10,8 @@ function ArticlesPage() {
 
             <Helmet>
                 <title>Why I Trust WebWay for Hosting in South Africa | Sthe Digital Agency</title>
-                <meta name="description" content="Explore why WebWay is the top choice for website hosting in South Africa. Learn from experience with reliable uptime and support for small businesses." />
-                <meta name="keywords" content="WebWay hosting South Africa, reliable hosting 2025, website hosting for business, Sthe Digital Agency reviews" />
+                <meta name="description" content="Explore why WebWay is the top choice for website hosting in South Africa." />
+                <meta name="keywords" content="WebWay hosting South Africa, web hosting South Africa, website hosting Gqeberha, website hosting Uitenhage, fast and secure hosting, SEO friendly hosting South Africa, South African web hosting, affordable web hosting 2025, reliable website hosting, hosting for small businesses SA, Sthe Digital Agency reviews" />
 
 
                 {/* Recommended additional tags */}

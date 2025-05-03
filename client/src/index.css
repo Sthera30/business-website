@@ -268,7 +268,7 @@ html {
     font-size: 2.5rem;
   }
 
-  .article-content-desc h2{
+  .article-content-desc h2 {
     font-size: 2rem;
   }
 
@@ -351,7 +351,7 @@ html {
     font-size: 2.4rem;
   }
 
-  .article-content-desc h2{
+  .article-content-desc h2 {
     font-size: 1.7rem;
   }
 
@@ -372,7 +372,7 @@ html {
     font-size: 2rem;
   }
 
-  .article-content-desc h2{
+  .article-content-desc h2 {
     font-size: 1.7rem;
   }
 
@@ -428,8 +428,8 @@ html {
 }
 
 @media (max-width: 459px) {
-  
-  .article-content-desc h2{
+
+  .article-content-desc h2 {
     font-size: 1.5rem;
   }
 
@@ -454,9 +454,14 @@ html {
     margin-top: 8rem;
   }
 
-  
-  .article-content-desc h2{
+
+  .article-content-desc h2 {
     font-size: 1.3rem !important;
+  }
+
+
+  .hero-content h1 {
+    font-size: 1.8rem;
   }
 
 }
@@ -550,6 +555,15 @@ html {
 
 }
 
+@media (max-width: 395px) {
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+}
+
 @media (max-width: 390px) {
 
   .left-content h1 {
@@ -581,8 +595,8 @@ html {
     font-size: 2rem;
   }
 
-  
-  .article-content-desc h2{
+
+  .article-content-desc h2 {
     font-size: 1.1rem !important;
   }
 
@@ -604,8 +618,8 @@ html {
 
 
 @media (max-width: 360px) {
-  
-  .article-inner-content p{
+
+  .article-inner-content p {
     font-size: 1rem;
   }
 
@@ -648,8 +662,8 @@ html {
 }
 
 @media (max-width: 278px) {
-  
-  .article-content-desc h2{
+
+  .article-content-desc h2 {
     font-size: 1rem !important;
   }
 

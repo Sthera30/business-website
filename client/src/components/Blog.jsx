@@ -50,7 +50,8 @@ function Blog() {
                         </div>
                         <p className='desc' style={{ marginBottom: '2rem' }}>
 
-                            In today's fast-moving digital world, having a website is only the beginning. If you want your business to truly stand out, stay relevant, and continue growing online, you need more than jus...
+                            In today’s fast-moving digital world, having a website is only the beginning. If you’re a small business owner in Gqeberha, Uitenhage, or anywh...
+
                         </p>
                         <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/why-every-business-needs-a-blog-to-stay-relevant-and-visible-online`}>Read more</NavLink>
 

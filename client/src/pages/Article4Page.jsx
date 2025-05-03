@@ -12,11 +12,11 @@ function Article4Page() {
                 <title>Your Website is Your First Impression — Here’s How to Make It Count | Sthe Digital Agency</title>
                 <meta
                     name="description"
-                    content="Your website is often the first thing people see about your business. Here's how to make a strong first impression online and turn visitors into customers."
+                    content="Your website is often the first thing people see about your business. Whether you need web design in Gqeberha, Uitenhage, or SEO services across South Africa — here's how to make that first impression count and turn visitors into customers."
                 />
                 <meta
                     name="keywords"
-                    content="first impression website, business website tips, modern website design, responsive web design, website user experience, CTAs, Sthe Digital Agency"
+                    content="web design Gqeberha, web design Uitenhage, SEO services South Africa, responsive web design, custom website design, fast-loading websites, mobile-friendly design, professional web design, first impression website, business website tips, website user experience, CTAs, Sthe Digital Agency"
                 />
 
                 {/* Recommended additional tags */}
@@ -29,7 +29,7 @@ function Article4Page() {
                 <meta property="og:title" content="Your Website is Your First Impression — Here’s How to Make It Count" />
                 <meta
                     property="og:description"
-                    content="Learn why your website is your business's 24/7 salesperson and how to make that first impression count."
+                    content="Learn why your website is your business's 24/7 salesperson. From web design in Gqeberha or Uitenhage to SEO services across South Africa — make your first impression count."
                 />
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.sthedigitalagency.co.za/your-website-is-your-first-impression" />
@@ -44,7 +44,7 @@ function Article4Page() {
                 <meta name="twitter:title" content="Your Website is Your First Impression — Make It Count" />
                 <meta
                     name="twitter:description"
-                    content="Your website makes or breaks your business's first impression. Here’s how to get it right in 2025."
+                    content="From fast design to SEO — your website is your business’s first impression. Learn how to make it count in Gqeberha, Uitenhage, and across South Africa."
                 />
                 <meta
                     name="twitter:image"
