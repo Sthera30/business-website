@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/project.css'
 import img1 from '../../public/kwanosportsclub-by-sthe-digital-agency.jpg'
-import img2 from '../../public/clear-vision-clinic.png'
+import img2 from '../../public/clear-vision-clinic.jpg'
 import { FaPlay } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { FaArrowDown } from 'react-icons/fa'
