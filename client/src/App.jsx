@@ -1,5 +1,6 @@
 import React from 'react'
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
+import ReactGA from 'react-ga4'
 import Main_layout from './layout/Main_layout.jsx'
 import HomePage from './pages/HomePage.jsx'
 import AboutUsPage from './pages/AboutUsPage.jsx'
@@ -15,6 +16,12 @@ import Article6Page from './pages/Article6Page.jsx'
 import Article7Page from './pages/Article7Page.jsx'
 import Article8Page from './pages/Article8Page.jsx'
 import Article9Page from './pages/Article9Page.jsx'
+
+
+// Initialize Google Analytics with your Measurement ID
+
+ReactGA.initialize('G-FDCCVZ95KE')
+
 
 function App() {
 
@@ -39,7 +46,7 @@ function App() {
                 <Route path={"/what-makes-a-homepage-great"} element={<Article8Page />} />
                 <Route path="/custom-vs-template-websites-which-is-right-for-growing-your-business-online" element={<Article9Page />} />
                 <Route path={"/contact-sthe-digital-agency"} element={<ContactUsPage />} />
-                
+
 
             </Route>
 
@@ -47,6 +54,13 @@ function App() {
 
     )
 
+    // Set up navigation tracking
+    router.subscribe((state) => {
+        const location = state.location;
+        if (location) {
+            ReactGA.send({ hitType: "pageview", page: location.pathname });
+        }
+    });
 
     return (
         <RouterProvider router={router} />
