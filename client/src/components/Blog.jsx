@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { FaUser, FaArrowDown } from 'react-icons/fa'
 import { Calendar } from 'lucide-react'
 import { NavLink } from 'react-router-dom'
-import img1 from '../../public/business-blogging-content-creation.jpeg'
+import img1 from '../../public/human-ai-collaboration-web-development-future-technology.jpg'
 import img2 from '../../public/professional-homepage-layout.png'
 
 function Blog() {
@@ -34,26 +34,26 @@ function Blog() {
 
                 <div className='blog-box'>
 
-                    <img src={img1} alt="Person showing a blog post on a laptop for business content creation" title="Business Blogging and Content Creation" loading='lazy' width={894} height={461} />
+                    <img src={img1} alt="Professional web developer collaborating with AI technology for modern website development against city skyline backdrop" title="Human-AI Collaboration: The Future of Web Development in 2025" loading='lazy' width={880} height={505} />
 
                     <div className='content'>
 
-                        <NavLink to={`/why-every-business-needs-a-blog-to-stay-relevant-and-visible-online`}><h2 style={{ color: '#333' }}>Why Every Business Needs a Blog to Stay Relevant and Visible Online</h2></NavLink>
+                        <NavLink to={`/will-web-development-be-replaced-by-ai`}><h2 style={{ color: '#333' }}>Will Web Development Be Replaced by AI? Here's What's Really Happening</h2></NavLink>
                         <div className='blog-content-info'>
                             <p><FaUser />&nbsp;Sthe Digital Agency</p>
                             <p><Calendar />&nbsp;
 
-                                Sun 27 April, 2025
+                                Mon 05 May, 2025
 
                             </p>
 
                         </div>
                         <p className='desc' style={{ marginBottom: '2rem' }}>
 
-                            In today’s fast-moving digital world, having a website is only the beginning. If you’re a small business owner in Gqeberha, Uitenhage, or anywh...
+                        Every few months, I see another headline claiming AI is about to make web developers obsolete. As someone who's been building websites for quite some time, I've heard the...
 
                         </p>
-                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/why-every-business-needs-a-blog-to-stay-relevant-and-visible-online`}>Read more</NavLink>
+                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/will-web-development-be-replaced-by-ai`}>Read more</NavLink>
 
                     </div>
 

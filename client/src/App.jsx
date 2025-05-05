@@ -42,7 +42,7 @@ function App() {
                 <Route path={"/your-website-is-your-first-impression"} element={<Article4Page />} />
                 <Route path={"/what-is-mobile-first-web-design"} element={<Article5Page />} />
                 <Route path={"/what-to-expect-when-working-with-a-web-developer"} element={<Article6Page />} />
-                <Route path={"/why-every-business-needs-a-blog-to-stay-relevant-and-visible-online"} element={<Article7Page />} />
+                <Route path={"/will-web-development-be-replaced-by-ai"} element={<Article7Page />} />
                 <Route path={"/what-makes-a-homepage-great"} element={<Article8Page />} />
                 <Route path="/custom-vs-template-websites-which-is-right-for-growing-your-business-online" element={<Article9Page />} />
                 <Route path={"/contact-sthe-digital-agency"} element={<ContactUsPage />} />
