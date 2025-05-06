@@ -11,28 +11,27 @@ function Article7Page() {
             <Helmet>
 
                 {/* Primary Meta Tags */}
-                <title>Why Every Business Needs a Blog | SEO Services & Web Design in Gqeberha | Sthe Digital Agency</title>
-                <meta name="description" content="Discover why blogging is essential for businesses in Gqeberha, Uitenhage, and across South Africa. Improve SEO, support custom websites, and drive web design success with fresh content." 
- />
-                <meta name="keywords" content="web design Gqeberha, web design Uitenhage, SEO services Gqeberha, SEO services South Africa, custom websites Eastern Cape, business blogging, content marketing South Africa, blog strategy for SEO, Sthe Digital Agency" />
+                <title>Will AI Replace Web Development? The Reality in 2025</title>
+                <meta name="description" content="Discover the real impact of AI on web development in 2025. Learn what AI can actually do, where it falls short, and how developers are adapting to thrive in this new landscape." />                
+                <meta name="keywords" content="AI web development, future of web development, web developers and AI, web design AI tools, AI website builders, web development industry, AI collaboration, custom web development, web development 2025" />
 
                 {/* Recommended additional tags */}
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="canonical" href="https://www.sthedigitalagency.co.za/why-every-business-needs-a-blog-to-stay-relevant-and-visible-online" />
+                <link rel="canonical" href="https://www.sthedigitalagency.co.za/will-web-development-be-replaced-by-ai" />
                 <meta name="author" content="Sthe Digital Agency" />
 
                 {/* Open Graph tags */}
                 <meta property="og:type" content="article" />
-                <meta property="og:title" content="Why Every Business Needs a Blog | SEO & Web Design Gqeberha | Sthe Digital Agency" />
-                <meta property="og:description" content="Blogging boosts visibility for web design in Uitenhage, Gqeberha, and across South Africa. Learn how blogs support SEO services and custom websites in the Eastern Cape." />
-                <meta property="og:url" content="https://www.sthedigitalagency.co.za/why-every-business-needs-a-blog-to-stay-relevant-and-visible-online" />
+                <meta property="og:title" content="Will AI Replace Web Developers? Here's What's Really Happening in 2025" />
+                <meta property="og:description" content="AI is changing web development, but not replacing humans. Explore how AI tools are transforming the industry, what they can and can't do, and how developers can thrive by embracing this technology." />
+                <meta property="og:url" content="https://www.sthedigitalagency.co.za/will-web-development-be-replaced-by-ai" />
                 <meta property="og:image" content={`https://www.sthedigitalagency.co.za/${img1}`} />
                 <meta property="og:site_name" content="Sthe Digital Agency" />
 
                 {/* Twitter Card tags */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Why Every Business Needs a Blog | Gqeberha Web Design & SEO Services" />
-                <meta name="twitter:description" content="Blogging keeps your site fresh and visible. Ideal for web design in Gqeberha, SEO in South Africa, and building trust with clients across the Eastern Cape." />
+                <meta name="twitter:title" content="The Truth About AI and Web Development in 2025" />
+                <meta name="twitter:description" content="AI is transforming web development but not replacing developers. Learn how the industry is evolving and how developers are using AI to create better websites faster." />
                 <meta name="twitter:image" content={`https://www.sthedigitalagency.co.za/${img1}`} />
 
             </Helmet>

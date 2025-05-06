@@ -12,7 +12,7 @@ function ContactUsPage() {
     <div>
 
       <Helmet>
-        <title>Contact Us | Web Design in Gqeberha & Uitenhage | Sthe Digital Agency</title>
+        <title>Contact Us | Web Design in Gqeberha & Uitenhage</title>
         <meta
           name="description"
           content="Contact Sthe Digital Agency for expert web design in Gqeberha and Uitenhage, SEO services across South Africa, and custom websites in the Eastern Cape. Let's bring your website vision to life."

@@ -9,7 +9,7 @@ function Article4Page() {
         <div>
 
             <Helmet>
-                <title>Your Website is Your First Impression — Here’s How to Make It Count | Sthe Digital Agency</title>
+                <title>Your Website is Your First Impression — Here’s How to Make It Count</title>
                 <meta
                     name="description"
                     content="Your website is often the first thing people see about your business. Whether you need web design in Gqeberha, Uitenhage, or SEO services across South Africa — here's how to make that first impression count and turn visitors into customers."

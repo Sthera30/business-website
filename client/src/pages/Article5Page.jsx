@@ -9,7 +9,7 @@ function Article5Page() {
         <div>
 
             <Helmet>
-                <title>Mobile-First Web Design: Why It Matters More Than Ever in 2025 | Sthe Digital Agency</title>
+                <title>Mobile-First Web Design: Why It Matters More Than Ever in 2025</title>
                 <meta
                     name="description"
                     content="In 2025, mobile-first design is no longer optional — it's essential. Learn why designing for smartphones first improves SEO, speed, and conversions for businesses in Gqeberha, Uitenhage, and across South Africa."

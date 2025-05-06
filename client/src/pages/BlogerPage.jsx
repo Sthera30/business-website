@@ -9,16 +9,9 @@ function BlogerPage() {
         <div>
 
             <Helmet>
-                <title>Why SEO is Essential for Every Business in 2025 | SEO Services in Gqeberha & South Africa</title>
-                <meta
-                    name="description"
-                    content="SEO services in Gqeberha, Uitenhage, and South Africa are no longer optional in 2025. Discover how showing up on Google can grow your business, build trust, and drive targeted traffic."
-                />
-
-                <meta
-                    name="keywords"
-                    content="SEO services South Africa, SEO Gqeberha, SEO Uitenhage, web design South Africa, Google ranking 2025, SEO for business, digital marketing, online visibility, Sthe Digital Agency"
-                />
+                <title>Why SEO is Essential for Gqeberha Businesses in 2025</title>
+                <meta name="description" content="SEO in Gqeberha & Uitenhage is a must in 2025. Get found on Google, attract local customers, and grow your business with proven SEO strategies." />
+                <meta name="keywords" content="SEO Gqeberha, SEO Uitenhage, local SEO services, web design Gqeberha, Google ranking 2025, SEO for small business, digital marketing Gqeberha, online visibility, Sthe Digital Agency, get more customers" />
 
                 {/* Recommended additional tags */}
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,11 +19,8 @@ function BlogerPage() {
                 <meta name="author" content="Sthe Digital Agency" />
 
                 {/* Open Graph tags */}
-                <meta property="og:title" content="Why SEO is Essential for Every Business in 2025" />
-                <meta
-                    property="og:description"
-                    content="In 2025, your website needs SEO to get found. Discover the impact of professional SEO services in Gqeberha and beyond for long-term business growth and visibility."
-                />
+                <meta property="og:title" content="Gqeberha's 2025 SEO Guide | Sthe Digital Agency" />
+                <meta property="og:description" content="Is your Gqeberha business visible online? Our 2025 SEO guide shows how local companies get found on Google, attract more customers, and outrank competitors." />
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.sthedigitalagency.co.za/why-seo-is-essential-for-every-business-in-2025" />
                 <meta
@@ -41,7 +31,7 @@ function BlogerPage() {
 
                 {/* Twitter Card tags */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Why SEO is Essential for Every Business in 2025" />
+                <meta name="twitter:title" content="Why SEO is Essential for Gqeberha Businesses in 2025" />
                 <meta
                     name="twitter:description"
                     content="Get found online in 2025. Discover why SEO in Gqeberha, Uitenhage, and South Africa matters more than ever."

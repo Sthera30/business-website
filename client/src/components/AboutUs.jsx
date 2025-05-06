@@ -13,7 +13,6 @@ import { MdComputer } from 'react-icons/md'
 import { NavLink } from 'react-router-dom'
 
 
-
 function AboutUs() {
     return (
 
@@ -32,7 +31,7 @@ function AboutUs() {
 
             <div className='about-container'>
                 <motion.h2 initial={{ opacity: 0, y: -100 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: .8, delay: 1 }}>About Sthe Digital Agency</motion.h2>
-                <motion.p initial={{ opacity: 0, y: -100 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: .8, delay: 1 }}>At Sthe Digital Agency, we’re passionate about building websites that not only look amazing but perform flawlessly. Based in the Eastern Cape, we serve clients across Gqeberha, Uitenhage, and throughout South Africa. Our team of full-stack developers combines creativity and technical expertise to deliver high-quality web design and SEO services tailored to your business goals. Whether you're a small business looking to establish an online presence or need a website refresh, we're here to help. We also believe that <a href='https://www.sthedigitalagency.co.za/why-every-business-needs-a-blog-to-stay-relevant-and-visible-online' target="_blank" rel="noopener noreferrer"> blogging plays a vital role in staying visible online.</a> Contact us today to start your next web project with a team you can trust.</motion.p>
+                <motion.p initial={{ opacity: 0, y: -100 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: .8, delay: 1 }}>At Sthe Digital Agency, we’re passionate about building websites that not only look amazing but perform flawlessly. Based in the Eastern Cape, we serve clients across Gqeberha, Uitenhage, and throughout South Africa. Our team of full-stack developers combines creativity and technical expertise to deliver high-quality web design and SEO services tailored to your business goals. Whether you're a small business looking to establish an online presence or need a website refresh, we're here to help. Contact us today to start your next web project with a team you can trust.</motion.p>
                 <NavLink to={"/about-sthe-digital-agency"}>
                     <motion.button initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: .8, delay: .6 }}>Read More</motion.button>
                 </NavLink>

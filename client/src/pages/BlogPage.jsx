@@ -11,7 +11,7 @@ function BlogPage() {
         <div>
 
             <Helmet>
-                <title>Web Design & SEO Tips | Gqeberha & Uitenhage | Sthe Digital Agency Blogs</title>
+                <title>Web Design & SEO Tips | Gqeberha & Uitenhage</title>
                 <meta name="description" content="Read expert articles on web design in Gqeberha and Uitenhage, SEO services in South Africa, and custom website solutions across the Eastern Cape. Stay ahead with Sthe Digital Agency." />
                 <meta name="keywords" content="web design Gqeberha, web design Uitenhage, SEO services Gqeberha, SEO services South Africa, custom websites Eastern Cape, digital marketing South Africa, Sthe Digital Agency blogs" />
 
@@ -20,7 +20,7 @@ function BlogPage() {
                 <link rel="canonical" href="https://www.sthedigitalagency.co.za/blog" />
 
                 {/* Open Graph tags */}
-                <meta property="og:title" content="Web Design & SEO Tips | Gqeberha & Uitenhage | Sthe Digital Agency Blogs" />
+                <meta property="og:title" content="Web Design & SEO Tips | Gqeberha & Uitenhage" />
                 <meta property="og:description" content="Explore web design tips for Gqeberha & Uitenhage, SEO services across South Africa, and custom websites in the Eastern Cape. Insights by Sthe Digital Agency." />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://www.sthedigitalagency.co.za/blog" />
@@ -28,7 +28,7 @@ function BlogPage() {
 
                 {/* Twitter Card tags */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Web Design & SEO Tips | Gqeberha & Uitenhage | Sthe Digital Agency Blogs" />
+                <meta name="twitter:title" content="Web Design & SEO Tips | Gqeberha & Uitenhage" />
                 <meta name="twitter:description" content="Learn about SEO services in Gqeberha, web design trends in Uitenhage, and custom website solutions for the Eastern Cape from Sthe Digital Agency." />
                 <meta name="twitter:image" content={`https://www.sthedigitalagency.co.za/${img2}`} />
 

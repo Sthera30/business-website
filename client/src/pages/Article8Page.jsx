@@ -11,7 +11,7 @@ function Article8Page() {
             <Helmet>
 
                 {/* Primary Meta Tags */}
-                <title>Homepage Design Best Practices | Web Design Gqeberha & SEO Services | Sthe Digital Agency</title>
+                <title>Homepage Design Best Practices | Web Design Gqeberha & SEO Services</title>
                 <meta
                     name="description"
                     content="Discover what makes a homepage great with Sthe Digital Agency. We offer web design in Gqeberha & Uitenhage, SEO services across South Africa, and custom websites in Eastern Cape."
@@ -25,7 +25,7 @@ function Article8Page() {
 
                 {/* Open Graph tags */}
                 <meta property="og:type" content="article" />
-                <meta property="og:title" content="Homepage Design Tips | Web Design Gqeberha & SEO South Africa | Sthe Digital Agency" />
+                <meta property="og:title" content="Homepage Design Tips | Web Design Gqeberha & SEO South Africa" />
                 <meta property="og:description" content="Learn homepage design best practices from a trusted web design and SEO agency based in Gqeberha. Serving South Africa with custom websites and digital growth strategies." />
                 <meta property="og:url" content="https://www.sthedigitalagency.co.za/what-makes-a-homepage-great?" />
                 <meta property="og:image" content={`https://www.sthedigitalagency.co.za/${img1}`} />

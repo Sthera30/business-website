@@ -11,7 +11,7 @@ function Article6Page() {
             <Helmet>
 
                 {/* Primary Meta Tags */}
-                <title>What to Expect When Working with a Web Developer | Sthe Digital Agency</title>
+                <title>What to Expect When Working with a Web Developer</title>
                 <meta
                     name="description"
                     content="Hiring a web developer for your business in Gqeberha, Uitenhage, or anywhere in South Africa? Discover what to expect during the web design and development process – from discovery to launch."
@@ -25,7 +25,7 @@ function Article6Page() {
 
                 {/* Open Graph tags */}
                 <meta property="og:type" content="article" />
-                <meta property="og:title" content="What to Expect When Working with a Web Developer | Sthe Digital Agency" />
+                <meta property="og:title" content="What to Expect When Working with a Web Developer" />
                 <meta property="og:description" content="A business-friendly guide on how web development works – from discovery to design, development, and post-launch support. Ideal for businesses in Gqeberha, Uitenhage, and South Africa." />
                 <meta property="og:url" content="https://www.sthedigitalagency.co.za/what-to-expect-when-working-with-a-web-developer" />
                 <meta property="og:image" content={`https://www.sthedigitalagency.co.za/${img1}`} />
@@ -33,7 +33,7 @@ function Article6Page() {
 
                 {/* Twitter Card tags */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="What to Expect When Working with a Web Developer | Sthe Digital Agency" />
+                <meta name="twitter:title" content="What to Expect When Working with a Web Developer" />
                 <meta name="twitter:description" content="Thinking about web design or SEO services in Gqeberha, Uitenhage, or anywhere in South Africa? Here’s how to work effectively with a web developer." />
                 <meta name="twitter:image" content={`https://www.sthedigitalagency.co.za/${img1}`} />
 
