@@ -59,7 +59,7 @@ function Blog() {
 
                     <div className='content'>
 
-                        <NavLink to={`/will-web-development-be-replaced-by-ai`}><h2 style={{ color: '#333' }}>Why Every Business Needs a Blog to Stay Relevant and Visible Online</h2></NavLink>
+                        <NavLink to={`/will-web-development-be-replaced-by-ai`}><h2 style={{ color: '#333' }}>Will Web Development Be Replaced by AI? Here's What's Really Happening</h2></NavLink>
                         <div className='blog-content-info'>
                             <p><FaUser />&nbsp;Sthe Digital Agency</p>
                             <p><Calendar />&nbsp;

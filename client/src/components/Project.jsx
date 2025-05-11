@@ -40,17 +40,13 @@ function Project() {
 
                 <div className='project-box'>
 
-                    <a href="https://clear-vision-clinic-frontend.vercel.app/">
 
                         <p>Clear Vision Clinic</p>
 
-                    </a>
 
-                    <a href="https://clear-vision-clinic-frontend.vercel.app/">
 
                         <img src={img2} alt="Screenshot of the clear vision clinic designed by Sthe Digital Agency" loading='lazy' width={2298} height={12720} />
 
-                    </a>
 
 
                 </div>
