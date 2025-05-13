@@ -4,8 +4,8 @@ import { motion } from 'framer-motion'
 import { FaUser, FaArrowDown } from 'react-icons/fa'
 import { Calendar } from 'lucide-react'
 import { NavLink } from 'react-router-dom'
-import img1 from '../../public/human-ai-collaboration-web-development-future-technology.jpg'
-import img2 from '../../public/professional-homepage-layout.png'
+import img1 from '../../public/how-long-to-build-a-website-time-management.png'
+import img2 from '../../public/launching-your-first-website-illustration.png'
 
 function Blog() {
 
@@ -34,59 +34,58 @@ function Blog() {
 
                 <div className='blog-box'>
 
-                    <img src={img1} alt="Professional web developer collaborating with AI technology for modern website development against city skyline backdrop" title="Human-AI Collaboration: The Future of Web Development in 2025" loading='lazy' width={880} height={505} />
+                    <img src={img2} alt="Illustration of a website launching from a computer screen with a rocket, symbolizing going live online" title="Launching Your First Website Online – Step-by-Step Hosting Guide" loading='lazy' width={667} height={489} />
+
 
                     <div className='content'>
 
-                        <NavLink to={`/will-web-development-be-replaced-by-ai`}><h2 style={{ color: '#333' }}>Will Web Development Be Replaced by AI? Here's What's Really Happening</h2></NavLink>
+                        <NavLink to={`/how-to-host-your-first-website-for-free-or-cheap`}><h2 style={{ color: '#333' }}>How to Host Your First Website for Free or Cheap</h2></NavLink>
                         <div className='blog-content-info'>
                             <p><FaUser />&nbsp;Sthe Digital Agency</p>
                             <p><Calendar />&nbsp;
 
-                                Mon 05 May, 2025
+                                Tue 13 May, 2025
 
                             </p>
 
                         </div>
                         <p className='desc' style={{ marginBottom: '2rem' }}>
 
-                        Every few months, I see another headline claiming AI is about to make web developers obsolete. As someone who's been building websites for quite some time, I've heard the...
+                            So you’ve built your very first website, maybe a personal portfolio, a business page, or a fun side project. Now the big question is? how do you actually get it on...
 
                         </p>
-                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/will-web-development-be-replaced-by-ai`}>Read more</NavLink>
+                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/how-to-host-your-first-website-for-free-or-cheap`}>Read more</NavLink>
 
                     </div>
 
                 </div>
-
 
                 <div className='blog-box'>
 
-                    <img src={img2} alt="Business website homepage design showing a clean, professional interface for better user experience" title="Professional Business Homepage Layout" width={2000} height={1111} loading='lazy' />
+                    <img src={img1} alt="Person holding a clock near a laptop symbolizing website development time" title="How long does it take to build a website – time and development planning" loading='lazy' width={603} height={415} />
 
                     <div className='content'>
 
-                        <NavLink to={`/what-makes-a-homepage-great`}><h2 style={{ color: '#333' }}>What Makes a Homepage Great? Key Elements You Should Never Ignore</h2></NavLink>
+                        <NavLink to={`/how-long-to-build-a-website`}><h2 style={{ color: '#333' }}>How Long Does It Take to Build a Website and What Affects the Time?</h2></NavLink>
                         <div className='blog-content-info'>
-                            <p><FaUser style={{ width: '1.5rem', height: '1.5rem' }} />&nbsp;Sthe Digital Agency</p>
-                            <p><Calendar style={{ width: '1.5rem', height: '1.5rem' }} />&nbsp;
+                            <p><FaUser />&nbsp;Sthe Digital Agency</p>
+                            <p><Calendar />&nbsp;
 
-                                Sun 27 April, 2025
+                                Tue 13 May, 2025
 
                             </p>
 
                         </div>
                         <p className='desc' style={{ marginBottom: '2rem' }}>
 
-                            Your homepage is the digital front door to your business. It’s the first impression visitors get when they land on your website, and it plays a crucial role in shap...
+                            If you're thinking of getting a website for your business or personal brand, one of the first questions that comes to min...
 
                         </p>
-                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/what-makes-a-homepage-great`}>Read more</NavLink>
+                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/how-long-to-build-a-website`}>Read more</NavLink>
 
                     </div>
 
                 </div>
-
 
             </div>
 

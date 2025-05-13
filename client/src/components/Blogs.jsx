@@ -15,6 +15,9 @@ import img6 from '../../public/web-developer-coding-professional-business-collab
 import img7 from '../../public/human-ai-collaboration-web-development-future-technology.jpg'
 import img8 from '../../public/professional-homepage-layout.png'
 import img9 from '../../public/business-decision-crossroads-question-marks.png'
+import img10 from '../../public/how-long-to-build-a-website-time-management.png'
+import img11 from '../../public/launching-your-first-website-illustration.png'
+import img12 from '../../public/business-blogging-content-creation.jpeg'
 
 
 
@@ -52,6 +55,88 @@ function Blog() {
             </div>
             <div className='blog-container'>
 
+                <div className='blog-box'>
+
+                    <img src={img10} alt="Illustration of a website launching from a computer screen with a rocket, symbolizing going live online" title="Launching Your First Website Online – Step-by-Step Hosting Guide" loading='lazy' width={603} height={415} />
+
+
+                    <div className='content'>
+
+                        <NavLink to={`/how-to-host-your-first-website-for-free-or-cheap`}><h2 style={{ color: '#333' }}>How to Host Your First Website for Free or Cheap</h2></NavLink>
+                        <div className='blog-content-info'>
+                            <p><FaUser />&nbsp;Sthe Digital Agency</p>
+                            <p><Calendar />&nbsp;
+
+                                Tue 13 May, 2025
+
+                            </p>
+
+                        </div>
+                        <p className='desc' style={{ marginBottom: '2rem' }}>
+
+                            So you’ve built your very first website, maybe a personal portfolio, a business page, or a fun side project. Now the big question is? how do you actually get it on...
+
+                        </p>
+                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/how-to-host-your-first-website-for-free-or-cheap`}>Read more</NavLink>
+
+                    </div>
+
+                </div>
+
+                <div className='blog-box'>
+
+                    <img src={img11} alt="Person holding a clock near a laptop symbolizing website development time" title="How long does it take to build a website – time and development planning" loading='lazy' width={667} height={489} />
+
+                    <div className='content'>
+
+                        <NavLink to={`/how-long-to-build-a-website`}><h2 style={{ color: '#333' }}>How Long Does It Take to Build a Website and What Affects the Time?</h2></NavLink>
+                        <div className='blog-content-info'>
+                            <p><FaUser />&nbsp;Sthe Digital Agency</p>
+                            <p><Calendar />&nbsp;
+
+                                Tue 13 May, 2025
+
+                            </p>
+
+                        </div>
+                        <p className='desc' style={{ marginBottom: '2rem' }}>
+
+                            If you're thinking of getting a website for your business or personal brand, one of the first questions that comes to min...
+
+                        </p>
+                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/how-long-to-build-a-website`}>Read more</NavLink>
+
+                    </div>
+
+                </div>
+
+
+
+                <div className='blog-box'>
+
+                    <img src={img12} alt="Laptop displaying a blog homepage with email icon, search bar, and a cup of tea nearby with reading glasses on the desk" title="Blogging setup with laptop, tea, and reading glasses - modern content creation workspace" loading='lazy' width={894} height={461} />
+
+                    <div className='content'>
+
+                        <NavLink to={`/why-blogs-are-important-gqeberha-uitenhage`}><h2 style={{ color: '#333' }}>Why Blogs Are So Important for Your Website (Especially in Gqeberha, Uitenhage, and the Eastern Cape)</h2></NavLink>
+                        <div className='blog-content-info'>
+                            <p><FaUser />&nbsp;Sthe Digital Agency</p>
+                            <p><Calendar />&nbsp;
+
+                                Tue 13 May, 2025
+
+                            </p>
+
+                        </div>
+                        <p className='desc' style={{ marginBottom: '2rem' }}>
+
+                        If you’re a business owner or freelancer in Gqeberha, Uitenhage, or anywhere in the Eastern Cape, having a beautiful website is just the beginning. What reall...
+                        </p>
+                        <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/why-blogs-are-important-gqeberha-uitenhage`}>Read more</NavLink>
+
+                    </div>
+
+                </div>
 
                 <div className='blog-box'>
 
@@ -71,7 +156,7 @@ function Blog() {
                         </div>
                         <p className='desc' style={{ marginBottom: '2rem' }}>
 
-                        Every few months, I see another headline claiming AI is about to make web developers obsolete. As someone who's been building websites for quite some time, I've heard the...
+                            Every few months, I see another headline claiming AI is about to make web developers obsolete. As someone who's been building websites for quite some time, I've heard the...
 
                         </p>
                         <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/will-web-development-be-replaced-by-ai`}>Read more</NavLink>
@@ -127,7 +212,7 @@ function Blog() {
                         </div>
                         <p className='desc' style={{ marginBottom: '2rem' }}>
 
-                        If you're a business owner exploring web design in Gqeberha, Uitenhage, or anywhere in South Africa, one of the first decisions you'll face is whe...
+                            If you're a business owner exploring web design in Gqeberha, Uitenhage, or anywhere in South Africa, one of the first decisions you'll face is whe...
                         </p>
                         <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/custom-vs-template-websites-which-is-right-for-growing-your-business-online`}>Read more</NavLink>
 
@@ -165,7 +250,7 @@ function Blog() {
 
                 <div className='blog-box'>
 
-                    <img src={img4} alt="Modern website landing page design with vibrant purple branding, showing people working on laptops with review cards and interactive elements, demonstrating effective user experience design" title="Modern-Landing-Page-Design-User-Reviews-Web-Experience" loading='lazy' width={702} height={498} />
+                    <img src={img4} alt="Modern website landing page design with vibrant purple branding, showing people working on laptops with review cards and interactive elements, demonstrating effective user experience design" title="Modern-Landing-Page-Design-User-Reviews-Web-Experience" loading='lazy' width={873} height={680} />
 
                     <div className='content'>
 
@@ -193,7 +278,7 @@ function Blog() {
 
                 <div className='blog-box'>
 
-                    <img src={img5} alt={"Isometric illustration of mobile-first web design process showing a designer arranging UI elements on a smartphone interface with app icons, media components, and development tools surrounding the device"} title={"Mobile-First-Web-Design-UI-Development-Process"} loading='lazy' width={702} height={498} />
+                    <img src={img5} alt={"Isometric illustration of mobile-first web design process showing a designer arranging UI elements on a smartphone interface with app icons, media components, and development tools surrounding the device"} title={"Mobile-First-Web-Design-UI-Development-Process"} loading='lazy' width={746} height={528} />
 
                     <div className='content'>
 
@@ -208,7 +293,7 @@ function Blog() {
 
                         </div>
                         <p className='desc' style={{ marginBottom: '2rem' }}>
-                        Mobile-first web design means creating your website for smartphones and small screens first, then scaling it up for tablets and desktops. It’s the opposite of how webs...                        </p>
+                            Mobile-first web design means creating your website for smartphones and small screens first, then scaling it up for tablets and desktops. It’s the opposite of how webs...                        </p>
                         <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/what-is-mobile-first-web-design`}>Read more</NavLink>
 
                     </div>
@@ -217,7 +302,7 @@ function Blog() {
 
                 <div className='blog-box'>
 
-                    <img src={img6} alt={"Close-up of hands typing on laptop keyboard with coffee cup nearby, representing the professional web development process and collaboration between developers and business owners"} title={"Professional-Web-Development-Process-Business-Collaboration"} loading='lazy' width={702} height={498} />
+                    <img src={img6} alt={"Close-up of hands typing on laptop keyboard with coffee cup nearby, representing the professional web development process and collaboration between developers and business owners"} title={"Professional-Web-Development-Process-Business-Collaboration"} loading='lazy' width={898} height={541} />
 
                     <div className='content'>
 
@@ -286,8 +371,8 @@ function Blog() {
                         </div>
                         <p className='desc' style={{ marginBottom: '2rem' }}>
 
-                        In 2025, having a website is no longer optional for small businesses-it’s essential for success. With more consumers turning to the internet for their buying decisions, a well-designed website boosts your online visibility, ensuring potential customers can find you easily. Whether you're offering web desi...
-                        
+                            In 2025, having a website is no longer optional for small businesses-it’s essential for success. With more consumers turning to the internet for their buying decisions, a well-designed website boosts your online visibility, ensuring potential customers can find you easily. Whether you're offering web desi...
+
                         </p>
                         <NavLink className={"btnReadMore"} style={{ marginTop: '1rem' }} to={`/the-importance-of-having-a-website-for-your-small-business-in-2025`}>Read more</NavLink>
 

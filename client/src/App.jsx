@@ -16,6 +16,9 @@ import Article6Page from './pages/Article6Page.jsx'
 import Article7Page from './pages/Article7Page.jsx'
 import Article8Page from './pages/Article8Page.jsx'
 import Article9Page from './pages/Article9Page.jsx'
+import Article10Page from './pages/Article10Page.jsx'
+import Article11Page from './pages/Article11Page.jsx'
+import Article12Page from './pages/Article12Page.jsx'
 
 
 // Initialize Google Analytics with your Measurement ID
@@ -45,6 +48,9 @@ function App() {
                 <Route path={"/will-web-development-be-replaced-by-ai"} element={<Article7Page />} />
                 <Route path={"/what-makes-a-homepage-great"} element={<Article8Page />} />
                 <Route path="/custom-vs-template-websites-which-is-right-for-growing-your-business-online" element={<Article9Page />} />
+                <Route path="/how-to-host-your-first-website-for-free-or-cheap" element={<Article10Page />} />
+                <Route path="/how-long-to-build-a-website" element={<Article11Page />} />
+                <Route path="/why-blogs-are-important-gqeberha-uitenhage" element={<Article12Page />} />
                 <Route path={"/contact-sthe-digital-agency"} element={<ContactUsPage />} />
 
 
