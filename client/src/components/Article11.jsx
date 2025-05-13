@@ -125,7 +125,7 @@ function Article11() {
 
                         <p><FaUser />&nbsp;Sthe Digital Agency</p>
                         <p><Calendar />&nbsp;
-                            Mon 12 May, 2025
+                            Tue 13 May, 2025
                         </p>
 
                     </div>

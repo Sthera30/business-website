@@ -57,7 +57,7 @@ function Blog() {
 
                 <div className='blog-box'>
 
-                    <img src={img10} alt="Illustration of a website launching from a computer screen with a rocket, symbolizing going live online" title="Launching Your First Website Online – Step-by-Step Hosting Guide" loading='lazy' width={603} height={415} />
+                    <img src={img11} alt="Illustration of a website launching from a computer screen with a rocket, symbolizing going live online" title="Launching Your First Website Online – Step-by-Step Hosting Guide" loading='lazy' width={603} height={415} />
 
 
                     <div className='content'>
@@ -85,7 +85,7 @@ function Blog() {
 
                 <div className='blog-box'>
 
-                    <img src={img11} alt="Person holding a clock near a laptop symbolizing website development time" title="How long does it take to build a website – time and development planning" loading='lazy' width={667} height={489} />
+                    <img src={img10} alt="Person holding a clock near a laptop symbolizing website development time" title="How long does it take to build a website – time and development planning" loading='lazy' width={667} height={489} />
 
                     <div className='content'>
 
@@ -109,7 +109,6 @@ function Blog() {
                     </div>
 
                 </div>
-
 
 
                 <div className='blog-box'>
